@@ -29,12 +29,6 @@ Folder             | Description
 5. Sine wave genaration problem using binary bits. It was overcomed by understanding the concept of sine wave.
 
 
-## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
-
 
 ## 4W AND H
 
@@ -56,4 +50,14 @@ All Virtual Labs can be accessed through a common website which we create furthe
 ## SWOT ANALYSIS
 
 ![SDLC_TEAM12_SWOT](https://user-images.githubusercontent.com/67604549/130089136-11521412-181b-4bd7-8c6d-2849c0dc80af.png)
+
+
+
+## Learning Resources
+1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
+3. [git inspector](https://github.com/ejwa/gitinspector.git)
+4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+
+
 

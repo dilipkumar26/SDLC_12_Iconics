@@ -10,3 +10,15 @@ For example: For example, a lamp connected to a 6V RMS AC supply will shine with
 ## RMS Formula
 
 RMS Voltage= peak voltage * 0.707 
+
+# DC Power
+
+Electric power is the rate, per unit time, at which electrical energy is transferred by an electric circuit. The SI unit of power is the watt, one joule per second.
+
+## Power Formulas in DC Circuits
+
+P = V x I
+
+P = I2 x R
+
+P = V2 / R
