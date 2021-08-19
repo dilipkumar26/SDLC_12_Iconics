@@ -30,29 +30,6 @@ Folder             | Description
 
 
 
-## 4W AND H
-
-# WHO
-The Virtual Labs Project started as an initiative from the Ministry of Human Resource and Development (MHRD)
-
-# WHERE
-IIT Khatragpur INDIA
-
-# WHAT
-to create online interactive media which would help students learn difficult concepts in various domains. As a part of this initiative, a virtual laboratory for Basic Electronics has been developed. The objective of this lab is to perform experiments in the Basic Electronics labs virtually, and yet have close to real life experience
-
-# WHEN
-2010
-
-# HOW
-All Virtual Labs can be accessed through a common website which we create further in app devolopment. At the user end, a PC and broadband connectivity enables the user to access Virtual Labs.
-
-## SWOT ANALYSIS
-
-![SDLC_TEAM12_SWOT](https://user-images.githubusercontent.com/67604549/130089136-11521412-181b-4bd7-8c6d-2849c0dc80af.png)
-
-
-
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
