@@ -57,4 +57,5 @@ to create online interactive media which would help students learn difficult con
 # WHEN
 2010
 
-
+# HOW
+All Virtual Labs can be accessed through a common website which we create further in app devolopment. At the user end, a PC and broadband connectivity enables the user to access Virtual Labs.
