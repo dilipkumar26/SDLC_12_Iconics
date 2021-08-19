@@ -4,6 +4,8 @@
 ID |  Description                 | Status  |  
 -------|------------------------|------|
 HL1_L1 | Loop currents calculation        |              |
+HL2_L3 | Loop currents calculation        |              |
+
 
  
 Gustav Kirchhoff’s Voltage Law (KVL) is the second of his fundamental laws we can use for circuit analysis. His voltage law states that for a closed loop series path the algebraic sum of all the voltages around any closed loop in a circuit is equal to zero (ΣV = 0). This is because a circuit loop is a closed conducting path so no energy is lost.
