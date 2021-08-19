@@ -37,7 +37,7 @@ Iavg = (2Im / π)
 
 The average value of AC sinusoidal current or voltage is equal to 0.637 times of its peak value.
 ### Waveform:
-![Average Value of Current]()
+
 
 ## Average Voltage
 ### Definition:
@@ -45,4 +45,4 @@ The average voltage (or current) of a periodic waveform whether it is a sine wav
 ### Formula:
      Average Value of Voltage = EAV = 0.637 EM
 ### Waveform:
-![Average Value of Voltage]()
+
