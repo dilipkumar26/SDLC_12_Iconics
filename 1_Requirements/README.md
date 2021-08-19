@@ -65,10 +65,10 @@ Resistors can be connected together in 'n' number of series and parallel combina
 
 # Number system conversion
 
-1.BINARY TO EXCESS-3 
-2.EXCESS-3 TO BINARY
-3.BINARY TO DECIMAL
-4.DECIMAL TO BINARY
+1.BINARY TO EXCESS-3. 
+2.EXCESS-3 TO BINARY.
+3.BINARY TO DECIMAL.
+4.DECIMAL TO BINARY.
 
 DECIMAL NUMBER SYSYTEM - The decimal, base-10 (den) or denary numbering system, each integer number column has values of units, tens, hundreds, thousands, etc as we move along the number from right to left.Then each position to the left of the decimal point indicates an increased positive power of 10.
 
