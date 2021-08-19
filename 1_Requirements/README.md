@@ -4,6 +4,29 @@
 3. Cheap device which can be used by anyone.
 4. No need of calibration as in case of hardware instrument when used alone.
 
+# Ageing Time
+The ageing time of our system is lifetime till a better a system comes to replace our system.
+
+# Ageing Cost/ Feature evolution
+It started with Ohm's law where only we could calculate resistance. But as time progressed, we can get devolop system where we can find out colour coding, series and parallel value of resistances along with colour coding. We know also perform KVL and KCL to find current and voltage in individual loops.
+
+Earlier we had just binary to decimal conversion and vice versa. But in the modern system we can perform many conversions like binary to nhexadecimal, binary to octal, binary to gray code and vice versa. 
+
+# Requirements
+We require a system which measures:
+1. Current
+2. voltage 
+3. Resistance
+4. Series and parallel resistances
+5. Colour coding of resistors
+
+We require a system which performs conversion of:
+1. Binary to gray and vice versa
+2. Binary to decimal and vice versa
+3. Binary to hexadecimal and vice versa
+4. Binary to octal and vice versa
+5. Binary to excess 3 and vice versa
+
 
 ## 4W AND H
 
@@ -178,7 +201,7 @@ For obtaining the loop currents in the circuit KVL is applied.
 
 **BINARY NUMBER SYSYTEM** - The Binary Numbering System is the most fundamental numbering system in all digital and computer based systems and binary numbers follow the same set of rules as the decimal numbering system. But unlike the decimal system which uses powers of ten, the binary numbering system works on powers of two giving a binary to decimal conversion from base-2 to base-10.
 
-**EXCESS-3 NUMBER SYSYTEM** - Excess-3, 3-excess or 10-excess-3 binary code, shifted binary or Stibitz code is a self-complementary binary-coded decimal code and numeral system. It is a biased representation. The major advantage of excess-3 coding over non-biased coding is that a decimal number can be nine's complimented as easily as a binary number can be one's complemented. i.e By inverting all bits.
+**EXCESS-3 NUMBER SYSYTEM** - Excess-3, 3-excess or 10-excess-3 binary code, shifted binary or Stibitz code is a self-complementary binary-coded decimal code and numeral system. It is a biased representation.
 
 **HEXADECIMAL NUMBER SYSTEM** - In the hexadecimal number system (hex) the numbers are represented with base 16,  Just like the binary number and decimal number whose base representation are 2 and 10, respectively. the hexadecimal conversion is also possible to other number system and vice versa.
 
