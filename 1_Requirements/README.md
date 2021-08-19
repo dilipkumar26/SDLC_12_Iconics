@@ -60,5 +60,8 @@ They behave in the same way as the circuit on the right of resistance Req that i
 
 ![parallel resistance](https://user-images.githubusercontent.com/86143586/130084288-c4940687-12a4-45b0-9e00-0e22608332c3.JPG)
 
+Resistors combined[series and parallel]
+Resistors can be connected together in 'n' number of series and parallel combinations to form complex resistive circuits and simplify the same.
+
 
 
