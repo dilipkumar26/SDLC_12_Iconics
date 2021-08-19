@@ -41,3 +41,20 @@ PS No. |  Name                  | No.  |  Features                          | Is
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+
+
+## 4W AND H
+
+# WHO
+The Virtual Labs Project started as an initiative from the Ministry of Human Resource and Development (MHRD)
+
+# WHERE
+IIT Khatragpur INDIA
+
+# WHAT
+to create online interactive media which would help students learn difficult concepts in various domains. As a part of this initiative, a virtual laboratory for Basic Electronics has been developed. The objective of this lab is to perform experiments in the Basic Electronics labs virtually, and yet have close to real life experience
+
+# WHEN
+2010
+
+
