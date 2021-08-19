@@ -69,7 +69,7 @@ For example: For example, a lamp connected to a 6V RMS AC supply will shine with
 
 ![rms_](https://user-images.githubusercontent.com/80695458/130090940-5d2350af-5caa-42ab-9467-1c91e77f5afd.gif)
 
-#RMS Formula
+## RMS Formula
 
 RMS Voltage= peak voltage * 0.707 
 
