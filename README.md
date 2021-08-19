@@ -6,6 +6,8 @@
 
 
 ![image](https://user-images.githubusercontent.com/67604549/130068222-b4dda5ed-6d9c-456c-8e2f-37955c1cbefe.png)
+
+
 ![image](https://user-images.githubusercontent.com/67604549/130070579-5cc33596-27d3-492b-bc95-d4b1a789c892.png)
 
 
@@ -18,10 +20,24 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 
 ## Contributors List and Sum
-SF Id. |  Name                  | No.  |  Features                          | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+PS No. |  Name                  | No.  |  Features                          | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|------------------------|------|------------------------------------|----------------|---------------|-------------|--------------
 `259796` | Ashwin G          |1.    |Calculate Total series Resistance   |  1            |  1          | 4          | 4    
 `259796` | Ashwin G          |2.    |Calculate Total Parallel Resistance  |  0            |  0           | 3         | 3   
 `259796` | Ashwin G          |3.    |Calculate Resistance based on voltage and current(Ohm's law) |  1            |  1          | 3          | 3    
 `259796` | Ashwin G          |4.    |Calculate Resistance based on color code |  1            |  1          | 3         | 3     
 
+## Challenges Faced and How Was It Overcome
+
+1. Differentiating the Resistor bands based on its value (ohms). It was overcomed by looking into resistance sheet given by manufactures.
+2. Tolerance Factor for each band. It was over comed by looking into which colour has which value of tolerance from the data sheet.
+3. Number of bands based on Resistance value. It was overcomed by using manual checking.
+4. Digital conversion from one unit to other. It was overcomed by reading the concepts from digital electronics from 12th standard electronics book.
+5. Sine wave genaration problem using binary bits. It was overcomed by understanding the concept of sine wave.
+
+
+## Learning Resources
+1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
+3. [git inspector](https://github.com/ejwa/gitinspector.git)
+4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
