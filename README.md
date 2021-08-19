@@ -36,7 +36,7 @@ Folder             | Description
 4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
 
 
-## 4W AND 1H
+## 4W AND H
 
 # WHO
 The Virtual Labs Project started as an initiative from the Ministry of Human Resource and Development (MHRD)
@@ -52,3 +52,8 @@ to create online interactive media which would help students learn difficult con
 
 # HOW
 All Virtual Labs can be accessed through a common website which we create further in app devolopment. At the user end, a PC and broadband connectivity enables the user to access Virtual Labs.
+
+## SWOT ANALYSIS
+
+![SDLC_TEAM12_SWOT](https://user-images.githubusercontent.com/67604549/130089136-11521412-181b-4bd7-8c6d-2849c0dc80af.png)
+
