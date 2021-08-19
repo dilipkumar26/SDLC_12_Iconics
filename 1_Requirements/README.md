@@ -63,6 +63,8 @@ They behave in the same way as the circuit on the right of resistance Req that i
 # Resistors combined[series and parallel]
 Resistors can be connected together in 'n' number of series and parallel combinations to form complex resistive circuits and simplify the same.
 
+
+
 # RMS Value of Current and Voltage
 
 Definition: The RMS value is the effective value of a varying voltage or current. It is the equivalent steady DC (constant) value which gives the same effect.
@@ -96,7 +98,7 @@ The average of all the instantaneous values of an alternating voltage and curren
 If we convert the alternating current (AC) sine wave into direct current (DC) sine wave through rectifiers, then the converted value to the DC is known as the average value of that alternating current sine wave
 ### Formula:
 Iavgx(π/ω) =  (2Im/ω)
- Iavg = (2Im / π)
+Iavg = (2Im / π)
 
      Iavg   = 0.637Im
 
@@ -110,6 +112,9 @@ The average voltage (or current) of a periodic waveform whether it is a sine wav
 ### Formula:
      Average Value of Voltage = EAV = 0.637 EM
 ### Waveform:
+![Average voltage](https://user-images.githubusercontent.com/67604549/130113494-36c2a02f-c407-425e-b047-19f76a3ce4e2.jpeg)
+
+![Average current](https://user-images.githubusercontent.com/67604549/130113530-d5dec145-c77d-40dd-9a73-27fb22cbe3d4.jpeg)
 
 
 
@@ -125,6 +130,8 @@ For the above circuit, we get the following equation after applying KVL:
 ##  Vs -IR1 - IR2 = 0
 
 For obtaining the loop currents in the circuit KVL is applied. 
+
+
 
 # Number system conversion
 
