@@ -14,6 +14,7 @@ V = I * R
 
 Where V is the voltage
 I is the current
+R is the resistance
 
 # Current Definition
 Electric Current is the rate of flow of electrons in a conductor.
