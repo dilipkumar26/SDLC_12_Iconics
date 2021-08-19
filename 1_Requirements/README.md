@@ -79,10 +79,14 @@ For obtaining the loop currents in the circuit KVL is applied.
 
 # Number system conversion
 
-1.BINARY TO EXCESS-3
-2.EXCESS-3 TO BINARY
-3.BINARY TO DECIMAL
-4.DECIMAL TO BINARY
+1. BINARY CODE  TO GRAY CODE
+2. GRAY CODE TO BINARY CODE
+3. DECIMAL TO HEXADECIMAL
+4. HEXADECIMAL TO DECIMAL
+5. BINARY TO EXCESS-3 CODE
+6. EXCESS-3 TO BINARY
+7. BINARY TO DECIMAL.
+8. DECIMAL TO BINARY.
 
 DECIMAL NUMBER SYSYTEM - The decimal, base-10 (den) or denary numbering system, each integer number column has values of units, tens, hundreds, thousands, etc as we move along the number from right to left.Then each position to the left of the decimal point indicates an increased positive power of 10.
 
