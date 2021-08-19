@@ -94,4 +94,6 @@ For obtaining the loop currents in the circuit KVL is applied.
 
 **EXCESS-3 NUMBER SYSYTEM** - Excess-3, 3-excess or 10-excess-3 binary code, shifted binary or Stibitz code is a self-complementary binary-coded decimal code and numeral system. It is a biased representation.
 
-**HEXADECIMAL** - In the hexadecimal number system (hex) the numbers are represented with base 16,  Just like the binary number and decimal number whose base representation are 2 and 10, respectively. the hexadecimal conversion is also possible to other number system and vice versa.
+**HEXADECIMAL NUMBER SYSTEM** - In the hexadecimal number system (hex) the numbers are represented with base 16,  Just like the binary number and decimal number whose base representation are 2 and 10, respectively. the hexadecimal conversion is also possible to other number system and vice versa.
+
+**GREY CODE NUMBER SYSTEM** - A Grey code is an encoding of numbers so that the adjacent numbers have a single digit differing by one.
