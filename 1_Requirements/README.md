@@ -134,6 +134,7 @@ If we convert the alternating current (AC) sine wave into direct current (DC) si
 
 The average value of AC sinusoidal current or voltage is equal to 0.637 times of its peak value.
 ### Waveform:
+![Average current](https://user-images.githubusercontent.com/67604549/130113530-d5dec145-c77d-40dd-9a73-27fb22cbe3d4.jpeg)
 
 
 ## Average Voltage
@@ -144,7 +145,6 @@ The average voltage (or current) of a periodic waveform whether it is a sine wav
 ### Waveform:
 ![Average voltage](https://user-images.githubusercontent.com/67604549/130113494-36c2a02f-c407-425e-b047-19f76a3ce4e2.jpeg)
 
-![Average current](https://user-images.githubusercontent.com/67604549/130113530-d5dec145-c77d-40dd-9a73-27fb22cbe3d4.jpeg)
 
 
 
