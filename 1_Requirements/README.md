@@ -79,13 +79,19 @@ For obtaining the loop currents in the circuit KVL is applied.
 
 # Number system conversion
 
-1. BINARY TO EXCESS-3 
-2. EXCESS-3 TO BINARY
+1. BINARY TO EXCESS-3.
+2. EXCESS-3 TO BINARY.
 3. BINARY TO DECIMAL.
 4. DECIMAL TO BINARY.
+5. BINARY TO GRAY.
+6. GRAY TO BINARY.
+7. DECIMAL TO HEXADECIMAL
+8. HEXADECIMAL TO DECIMAL
 
-DECIMAL NUMBER SYSYTEM - The decimal, base-10 (den) or denary numbering system, each integer number column has values of units, tens, hundreds, thousands, etc as we move along the number from right to left.Then each position to the left of the decimal point indicates an increased positive power of 10.
+**DECIMAL NUMBER SYSYTEM** - The decimal, base-10 (den) or denary numbering system, each integer number column has values of units, tens, hundreds, thousands, etc as we move along the number from right to left.Then each position to the left of the decimal point indicates an increased positive power of 10.
 
-BINARY NUMBER SYSYTEM - The Binary Numbering System is the most fundamental numbering system in all digital and computer based systems and binary numbers follow the same set of rules as the decimal numbering system. But unlike the decimal system which uses powers of ten, the binary numbering system works on powers of two giving a binary to decimal conversion from base-2 to base-10.
+**BINARY NUMBER SYSYTEM** - The Binary Numbering System is the most fundamental numbering system in all digital and computer based systems and binary numbers follow the same set of rules as the decimal numbering system. But unlike the decimal system which uses powers of ten, the binary numbering system works on powers of two giving a binary to decimal conversion from base-2 to base-10.
 
-EXCESS-3 NUMBER SYSYTEM - Excess-3, 3-excess or 10-excess-3 binary code, shifted binary or Stibitz code is a self-complementary binary-coded decimal code and numeral system. It is a biased representation.
+**EXCESS-3 NUMBER SYSYTEM** - Excess-3, 3-excess or 10-excess-3 binary code, shifted binary or Stibitz code is a self-complementary binary-coded decimal code and numeral system. It is a biased representation.
+
+**HEXADECIMAL** - In the hexadecimal number system (hex) the numbers are represented with base 16,  Just like the binary number and decimal number whose base representation are 2 and 10, respectively. the hexadecimal conversion is also possible to other number system and vice versa.
