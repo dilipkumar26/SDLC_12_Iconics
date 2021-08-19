@@ -64,6 +64,12 @@ They behave in the same way as the circuit on the right of resistance Req that i
 Resistors can be connected together in 'n' number of series and parallel combinations to form complex resistive circuits and simplify the same.
 
 # Number system conversion
+
+1.BINARY TO EXCESS-3 
+2.EXCESS-3 TO BINARY
+3.BINARY TO DECIMAL
+4.DECIMAL TO BINARY
+
 DECIMAL NUMBER SYSYTEM - The decimal, base-10 (den) or denary numbering system, each integer number column has values of units, tens, hundreds, thousands, etc as we move along the number from right to left.Then each position to the left of the decimal point indicates an increased positive power of 10.
 
 BINARY NUMBER SYSYTEM - The Binary Numbering System is the most fundamental numbering system in all digital and computer based systems and binary numbers follow the same set of rules as the decimal numbering system. But unlike the decimal system which uses powers of ten, the binary numbering system works on powers of two giving a binary to decimal conversion from base-2 to base-10.
