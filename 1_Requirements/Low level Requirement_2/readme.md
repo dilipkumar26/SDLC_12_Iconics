@@ -18,5 +18,7 @@ Electric power is the rate, per unit time, at which electrical energy is transfe
 ## Power Formulas in DC Circuits
 
 P = V x I
+
 P = I2 x R
+
 P = V2 / R
