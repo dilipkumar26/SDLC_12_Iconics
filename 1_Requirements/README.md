@@ -97,8 +97,9 @@ The average of all the instantaneous values of an alternating voltage and curren
 ### Definition:
 If we convert the alternating current (AC) sine wave into direct current (DC) sine wave through rectifiers, then the converted value to the DC is known as the average value of that alternating current sine wave
 ### Formula:
-Iavgx(π/ω) =  (2Im/ω)
-Iavg = (2Im / π)
+   Iavgx(π/ω) =  (2Im/ω)
+
+   Iavg = (2Im / π)
 
      Iavg   = 0.637Im
 
