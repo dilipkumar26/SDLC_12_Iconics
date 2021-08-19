@@ -36,7 +36,7 @@ Folder             | Description
 4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
 
 
-## 4W AND H
+## 4W AND 1H
 
 # WHO
 The Virtual Labs Project started as an initiative from the Ministry of Human Resource and Development (MHRD)
