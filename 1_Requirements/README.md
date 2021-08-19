@@ -76,4 +76,15 @@ BINARY NUMBER SYSYTEM - The Binary Numbering System is the most fundamental numb
 
 EXCESS-3 NUMBER SYSYTEM - Excess-3, 3-excess or 10-excess-3 binary code, shifted binary or Stibitz code is a self-complementary binary-coded decimal code and numeral system. It is a biased representation.
 
+# Kirchhoff VoLtage Law (KVL) 
 
+Gustav Kirchhoff’s Voltage Law (KVL) is the second of his fundamental laws we can use for circuit analysis. 
+# Definition: 
+For a closed loop series path the algebraic sum of all the voltages around any closed loop in a circuit is equal to zero (ΣV = 0). This is because a circuit loop is a closed conducting path so no energy is lost.
+
+![dcp107](https://user-images.githubusercontent.com/80401577/130097149-63f239c4-a086-4ee7-a689-a09b19a6f921.gif)
+
+For the above circuit, we get the following equation after applying KVL:
+##  Vs -IR1 - IR2 = 0
+
+For obtaining the loop currents in the circuit KVL is applied. 
