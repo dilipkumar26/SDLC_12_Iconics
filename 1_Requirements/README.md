@@ -134,7 +134,6 @@ If we convert the alternating current (AC) sine wave into direct current (DC) si
 
 The average value of AC sinusoidal current or voltage is equal to 0.637 times of its peak value.
 ### Waveform:
-![Average current](https://user-images.githubusercontent.com/67604549/130113530-d5dec145-c77d-40dd-9a73-27fb22cbe3d4.jpeg)
 
 
 ## Average Voltage
@@ -145,6 +144,7 @@ The average voltage (or current) of a periodic waveform whether it is a sine wav
 ### Waveform:
 ![Average voltage](https://user-images.githubusercontent.com/67604549/130113494-36c2a02f-c407-425e-b047-19f76a3ce4e2.jpeg)
 
+![Average current](https://user-images.githubusercontent.com/67604549/130113530-d5dec145-c77d-40dd-9a73-27fb22cbe3d4.jpeg)
 
 
 
@@ -178,7 +178,7 @@ For obtaining the loop currents in the circuit KVL is applied.
 
 **BINARY NUMBER SYSYTEM** - The Binary Numbering System is the most fundamental numbering system in all digital and computer based systems and binary numbers follow the same set of rules as the decimal numbering system. But unlike the decimal system which uses powers of ten, the binary numbering system works on powers of two giving a binary to decimal conversion from base-2 to base-10.
 
-**EXCESS-3 NUMBER SYSYTEM** - Excess-3, 3-excess or 10-excess-3 binary code, shifted binary or Stibitz code is a self-complementary binary-coded decimal code and numeral system. It is a biased representation.
+**EXCESS-3 NUMBER SYSYTEM** - Excess-3, 3-excess or 10-excess-3 binary code, shifted binary or Stibitz code is a self-complementary binary-coded decimal code and numeral system. It is a biased representation. The major advantage of excess-3 coding over non-biased coding is that a decimal number can be nine's complimented as easily as a binary number can be one's complemented. i.e By inverting all bits.
 
 **HEXADECIMAL NUMBER SYSTEM** - In the hexadecimal number system (hex) the numbers are represented with base 16,  Just like the binary number and decimal number whose base representation are 2 and 10, respectively. the hexadecimal conversion is also possible to other number system and vice versa.
 
