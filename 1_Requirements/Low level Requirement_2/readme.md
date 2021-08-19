@@ -24,13 +24,12 @@ P = I2 x R
 P = V2 / R
 
 # Average Value
-## Definition:
 The average of all the instantaneous values of an alternating voltage and currents over one complete cycle is called Average Value.
 
 ## Average Current
 ### Definition:
 If we convert the alternating current (AC) sine wave into direct current (DC) sine wave through rectifiers, then the converted value to the DC is known as the average value of that alternating current sine wave
-### Caliculation
+### Formula:
 Iavgx(π/ω) =  (2Im/ω)
 Iavg = (2Im / π)
 
@@ -38,4 +37,12 @@ Iavg = (2Im / π)
 
 The average value of AC sinusoidal current or voltage is equal to 0.637 times of its peak value.
 ### Waveform:
-![Average Value of Current](https://www.electricaltechnology.org/2019/05/rms-value-average-value-peak-value-instantiations-value-form-factor-peak-factor.html#what-is-average-value)
+![Average Value of Current]()
+
+## Average Voltage
+### Definition:
+The average voltage (or current) of a periodic waveform whether it is a sine wave, square wave or triangular waveform is defined as: “the quotient of the area under the waveform with respect to time”.
+### Formula:
+     Average Value of Voltage = EAV = 0.637 EM
+### Waveform:
+![Average Value of Voltage]()
