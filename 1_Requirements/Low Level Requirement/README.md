@@ -21,6 +21,9 @@ HL1_L11 | DC value of current calculation | Implemented|
 HL1_L19 | Excess 3 to Binary       |Implemented   |
 HL1_L20 | Binary to Decimal   |Implemented   |
 HL1_L21 | Decimal to Binary|Implemented |
+HL1_L22 | Loop currents calculation        | Implementing |
+HL2_L23 | Decimal to Octal conversion       | Implementing |
+HL2_L24 | Octal to Decimal conversion        | Implementing |
 
 
 
