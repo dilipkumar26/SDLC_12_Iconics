@@ -208,4 +208,4 @@ For obtaining the loop currents in the circuit KVL is applied.
 
 **HEXADECIMAL NUMBER SYSTEM** - In the hexadecimal number system (hex) the numbers are represented with base 16,  Just like the binary number and decimal number whose base representation are 2 and 10, respectively. the hexadecimal conversion is also possible to other number system and vice versa.
 
-**GREY CODE NUMBER SYSTEM** - A Grey code is an encoding of numbers so that the adjacent numbers have a single digit differing by one.
+**GRAY CODE NUMBER SYSTEM** - A Grey code is an encoding of numbers so that the adjacent numbers have a single digit differing by one.
