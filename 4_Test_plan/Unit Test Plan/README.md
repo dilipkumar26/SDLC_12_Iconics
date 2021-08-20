@@ -32,7 +32,7 @@ The following is the unit test plan for option 3 which is conversion of Binary c
 | **Test ID** | **Description**                                              | **Exp I/P**  | **Exp O/P** | **Actual Out** | **Type Of Test**   |    
 |-------------|--------------------------------------------------------------|--------------|-------------|----------------|--------------------|
 |  H_01       |Finding the Gray code and Vice-Versa                          | 0011         | 0010        |                |Requirement based   |
-|  H_02       |Suppose we must Binary code for a project                     | 0010         | 0011        |                |Scenario based      |
+|  H_02       |Suppose we must use Binary code for a project                 | 0010         | 0011        |                |Scenario based      |
 |  H_03       |Suppose a company asks for both Binary and Gray at a time     | 01101 01001  | 01001 01101 |                |Boundary based      |
 
 
