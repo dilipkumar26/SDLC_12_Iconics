@@ -6,6 +6,8 @@
 
 
 # Use Case Diagram
-![UseCase](https://user-images.githubusercontent.com/80401577/130246405-e3ed78bb-c317-4a9c-a3d6-fa9219c20360.JPG)
+
+![UML diagram (4)](https://user-images.githubusercontent.com/80401577/130248053-be6902ba-eb6e-498f-a3e2-bc9824140ea2.png)
+
 
 
