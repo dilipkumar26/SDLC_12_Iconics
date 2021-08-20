@@ -6,7 +6,7 @@ The following are the unit test plan for option 1 which is calculating resistanc
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 |  H_01       |Check the inputs given by the user are valid or not           | Correct Input provided |Corresponding operation executed   |        |Requirement based |
-|  H_02       |Check whether the inputs provided are invalid     | Invalid choice   |" Invalid " to be printed   |      |Boundary based  |
+|  H_02       |Check whether the inputs provided are invalid     | Invalid choice   |" Invalid " to be printed   |      |Scenario based  |
 |  H_03       |Suppose a company asks for 2 kilo ohms resistors              | R R R G    |2200 OHMS    |     |Boundary based    |
 
 ## Low level test plan
