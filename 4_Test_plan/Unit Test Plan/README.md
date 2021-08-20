@@ -23,9 +23,9 @@
 |  L_08       |Testing whether the Frequency function is outputting correct value|L = 200(in mH), C = 10(in pF)|112.5 KHz| |Requirement based    |
 |  L_09       |Testing whether the Frequency conversion function is outputting correct value for boundary value (extreme cases)|L = 200000(in mH), C = 0.01(in F) |0.1125| |Boundary based    |
 
-|  L-10       |Finding the Gray code and Vice-Versa                          | 0011         | 0010        |                |Requirement based   |
-|  L_11       |Suppose we must use Binary code for a project                 | 0010         | 0011        |                |Scenario based      |
-|  L_12       |Suppose a company asks for both Binary and Gray at a time     | 01101 01001  | 01001 01101 |                |Boundary based      |
+|  L-10 |Finding the Gray code and Vice-Versa | 0011         | 0010        |                |Requirement based   |
+|  L_11|Suppose we must use Binary code for a project | 0010         | 0011        |                |Scenario based      |
+|  L_12 |Suppose a company asks for both Binary and Gray at a time| 01101 01001  | 01001 01101 |                |Boundary based      |
 
 
 
