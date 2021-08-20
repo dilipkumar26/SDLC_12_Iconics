@@ -65,7 +65,7 @@ When using one of these reference points as ground, it provides the total voltag
 V = I * R   
 
 Where V is the voltage
-I is the current
+I is the current (unit Amperes)
 R is the resistance
 
 # Current Definition
