@@ -10,4 +10,10 @@
 ![UML diagram (4)](https://user-images.githubusercontent.com/80401577/130248053-be6902ba-eb6e-498f-a3e2-bc9824140ea2.png)
 
 
+# Class Diagram
+
+![Class Diagram_Structural](https://user-images.githubusercontent.com/67604549/130248625-ab58500e-de43-401e-b0ac-49493bf7b03c.png)
+
+
+
 
