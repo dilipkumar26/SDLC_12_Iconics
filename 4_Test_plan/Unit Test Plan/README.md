@@ -28,6 +28,8 @@
 |  L_13 | Finding the excess-3 code for given BCD code | 0001 | 0100|                |Requirement Based|
 |  L_14 | Finding the BCD code from the given excess-3 code | 0111 | 0100|                |Requirement Based|
 |  L_15 | In case of excess-3 to BCD conversion the number should be greater than 2| 0000 | XXXX|                |Boundary Based|
+|  L_16 | Finding BCD code for the given Decimal number | 5 | 0101 |                |Requirement Based|
+|  L_17 | Finding Decimal number from the given BCD code | 1100 | 12 |                |Requirement Based| 
 
 
 
