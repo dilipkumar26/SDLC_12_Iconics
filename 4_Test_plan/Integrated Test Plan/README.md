@@ -1,3 +1,5 @@
+The following table determines the integrated test plan:
+
 | **Test ID** | **Description**                                              |**Purpose** |**Test cases** |   
 |-------------|--------------------------------------------------------------|------------|---------------|
 |  T_01       |Finding the colour code of resistors, cuurent , voltage and resistances | Getting to know the basics parametric values essential for any device or system| 10|
