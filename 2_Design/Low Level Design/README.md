@@ -1,7 +1,5 @@
-There are 5 options in our project or in our system where in an user can select any option he wants accordingly.
-The options being.
+## Low Level Designs
 
-Option 1 is to :
-1. Calculate resistance, voltage and current
-2. Calculate colour coding of resistors
-3. Calculate series and parallel resistances.
+# Object Diagram
+
+![ObjectDiagram(LLD)](https://github.com/dilipkumar26/SDLC_12_Iconics/blob/0184ecba66c69f7db7d16909a5d844106768a8e4/2_Design/Low%20Level%20Design/ObjectDiagram1.jpg)
