@@ -1,5 +1,6 @@
-| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |   
-|-------------|--------------------------------------------------------------|------------|-------------|----------------|
-|  T_01       |Finding the colour code of resistance                         | BL BR R G    |100 OHMS     |        |
-|  T_02       |Suppose we must use a 1.1 kilo ohm resistor for a project and it needs to be checked if the value is correct or not     | BR BR BR  G    |1100 OHMS    |      |
+| **Test ID** | **Description**                                              |**Purpose** |**Test cases** |   
+|-------------|--------------------------------------------------------------|------------|
+|  T_01       |Finding the colour code of resistors, cuurent , voltage and resistances | Getting to know the basics parametric values essential for any device or system| 10|
+|  T_02       |Finding the node voltage| Essential to know the voltage, current and other parameters accriss any junction to avoid breakdown of the system| 3|    
+| T_03 | Determining the digital  conversion| Essential to increase the accuracy of values collected| 15 |
 
