@@ -17,5 +17,10 @@ HL1_L11 | DC value of current calculation | Implemented|
    HL1_L15           | 8-bit Gray code to 8-bit Binary code   | Implemented|
    HL1_L16           | Decimal number to HexaDecimal number   | Implemented|
    HL1_L17           | HexaDecimal number to Deciaml number   | Implemented|
+   HL1_L18 | Binary to Excess 3       |Implemented   |
+HL1_L19 | Excess 3 to Binary       |Implemented   |
+HL1_L20 | Binary to Decimal   |Implemented   |
+HL1_L21 | Decimal to Binary|Implemented |
+
 
 
