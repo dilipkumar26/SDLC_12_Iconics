@@ -80,6 +80,8 @@ I=V/R
 Where V is the voltage
 R is the resistance
 
+![Capture](https://user-images.githubusercontent.com/86143586/130176820-1cdfdcee-aaa0-4e9a-9a68-b59fa631e6ba.JPG)
+
 # What is Resistor Colour Code?
 Resistors are usually very tiny, and it is challenging to print resistance values on them.
 So, colour bands are printed on them to represent the electrical resistance. 
