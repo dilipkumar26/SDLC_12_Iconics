@@ -197,8 +197,8 @@ For obtaining the loop currents in the circuit KVL is applied.
 4. DECIMAL TO BINARY.
 5. BINARY TO GRAY.
 6. GRAY TO BINARY.
-7. DECIMAL TO HEXADECIMAL
-8. HEXADECIMAL TO DECIMAL
+7. BINARY TO HEXADECIMAL
+8. HEXADECIMAL TO BINARY
 
 **DECIMAL NUMBER SYSYTEM** - The decimal, base-10 (den) or denary numbering system, each integer number column has values of units, tens, hundreds, thousands, etc as we move along the number from right to left.Then each position to the left of the decimal point indicates an increased positive power of 10.
 
@@ -209,3 +209,5 @@ For obtaining the loop currents in the circuit KVL is applied.
 **HEXADECIMAL NUMBER SYSTEM** - In the hexadecimal number system (hex) the numbers are represented with base 16,  Just like the binary number and decimal number whose base representation are 2 and 10, respectively. the hexadecimal conversion is also possible to other number system and vice versa.
 
 **GRAY CODE NUMBER SYSTEM** - A Grey code is an encoding of numbers so that the adjacent numbers have a single digit differing by one.
+
+**OCTAL CODE NUMBER SYSTEM** - Octal Number System has a base of eight and uses the number from 0 to 7. The octal numbers, in the number system, are usually represented by binary numbers when they are grouped in pairs of three
