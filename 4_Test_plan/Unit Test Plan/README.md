@@ -20,7 +20,8 @@ The following are the unit test plan for option 1 which is calculating resistanc
 |  L_05       |Testing whether the DecToOct conversion function is outputting correct value for boundary value (extreme cases)| 289175461 (in dec)|2117073645(in oct)| |Boundary based    |
 |  L_06       |Testing whether the OctToDec conversion function is outputting correct value|22 (in oct)|18(in dec)| |Requirement based    |
 |  L_07       |Testing whether the OctToDec conversion function is outputting correct value for boundary value (extreme cases)| 2117073645  (in oct)| 289175461(in dec)| |Boundary based    |
-
+|  L_08       |Testing whether the Frequency function is outputting correct value|L = 200(in mH), C = 10(in pF)|112.5 KHz| |Requirement based    |
+|  L_09       |Testing whether the Frequency conversion function is outputting correct value for boundary value (extreme cases)|L = 200000(in mH), C = 0.01(in F) |0.1125| |Boundary based    |
 
 
 
