@@ -199,6 +199,8 @@ For obtaining the loop currents in the circuit KVL is applied.
 6. GRAY TO BINARY.
 7. BINARY TO HEXADECIMAL
 8. HEXADECIMAL TO BINARY
+9. BINARY TO OCTAL
+10. OCTAL TO BINARY
 
 **DECIMAL NUMBER SYSYTEM** - The decimal, base-10 (den) or denary numbering system, each integer number column has values of units, tens, hundreds, thousands, etc as we move along the number from right to left.Then each position to the left of the decimal point indicates an increased positive power of 10.
 
