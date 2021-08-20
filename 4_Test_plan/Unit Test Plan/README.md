@@ -16,6 +16,14 @@ The following is the unit test plan for option 1 which is calculating resistance
 |  L_01       |Suppose we want to find the exact resistance through a device |V = 5v, I = 1mA|5 KILO OHMS|  |Requirement based |
 |  L_02       |Supppose a company asks to design two 20 kilo ohms resistors in series|R1 = 20KILO OHMS, R2 = 20 KILO OHMS|40 KILO OHMS||Scenario based    |
 |  L_03       |Suppose a situation arises wherein we need 1.1 kilo ohm resistor. Then we connect two 2.2 kilo ohms resistors in parallel|R1 = 2.2 KILO OHMS, R2 = 2.2 KILO OHMS|1.2KILO OHMS||Boundary based    |
+|  L_04       |Testing whether the DecToOct conversion function is outputting correct value|18 (in dec)|22(in oct)| |Requirement based    |
+|  L_05       |Testing whether the DecToOct conversion function is outputting correct value for boundary value (extreme cases)| 289175461 (in dec)|2117073645(in oct)| |Boundary based    |
+|  L_06       |Testing whether the OctToDec conversion function is outputting correct value|22 (in oct)|18(in dec)| |Requirement based    |
+|  L_07       |Testing whether the OctToDec conversion function is outputting correct value for boundary value (extreme cases)| 2117073645  (in oct)| 289175461(in dec)| |Boundary based    |
+
+
+
+
 
 
 
