@@ -1,4 +1,4 @@
-The following are the unit test plan for option 1 which is calculating resistance, voltage, current, series and parallel resistances calculation along with colour code determination.
+
 
 
 ##  High level test plan
@@ -23,6 +23,9 @@ The following are the unit test plan for option 1 which is calculating resistanc
 |  L_08       |Testing whether the Frequency function is outputting correct value|L = 200(in mH), C = 10(in pF)|112.5 KHz| |Requirement based    |
 |  L_09       |Testing whether the Frequency conversion function is outputting correct value for boundary value (extreme cases)|L = 200000(in mH), C = 0.01(in F) |0.1125| |Boundary based    |
 
+|  L-10       |Finding the Gray code and Vice-Versa                          | 0011         | 0010        |                |Requirement based   |
+|  L_11       |Suppose we must use Binary code for a project                 | 0010         | 0011        |                |Scenario based      |
+|  L_12       |Suppose a company asks for both Binary and Gray at a time     | 01101 01001  | 01001 01101 |                |Boundary based      |
 
 
 
@@ -33,16 +36,9 @@ The following are the unit test plan for option 1 which is calculating resistanc
 
 
 
-The following is the unit test plan for option 3 which is conversion of Binary code to Gray code and Vice-Versa, Decimal number to Hexadecimal number and Vice-versa.
 
 
-##  High level test plan
 
-| **Test ID** | **Description**                                              | **Exp I/P**  | **Exp O/P** | **Actual Out** | **Type Of Test**   |    
-|-------------|--------------------------------------------------------------|--------------|-------------|----------------|--------------------|
-|  H_01       |Finding the Gray code and Vice-Versa                          | 0011         | 0010        |                |Requirement based   |
-|  H_02       |Suppose we must use Binary code for a project                 | 0010         | 0011        |                |Scenario based      |
-|  H_03       |Suppose a company asks for both Binary and Gray at a time     | 01101 01001  | 01001 01101 |                |Boundary based      |
 
 
 
