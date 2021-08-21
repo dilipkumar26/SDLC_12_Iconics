@@ -43,7 +43,7 @@
 | L_28 |Finding the rms value of input voltage | V=10V | 7.07V || Requirement based |
 | L_29 | Finding the rms value of input current | I=2A | 1.41A|| Requirement based |
 | L_30 | Finding the average voltage value of sinusoidal wave | V=4.5V | 2.86V || Requirement based|
-| L_30 | Finding the average voltage value of sinusoidal wave | I =10.28amA | 6.84mA  || Requirement based|
+| L_30 | Finding the average current value of sinusoidal wave | I=10.28amA | 6.84mA  || Requirement based|
 
 
 
