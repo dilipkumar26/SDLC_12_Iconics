@@ -30,6 +30,8 @@
 |  L_15 | In case of excess-3 to BCD conversion the number should be greater than 2| 0000 | XXXX|                |Boundary Based|
 |  L_16 | Finding BCD code for the given Decimal number | 5 | 0101 |                |Requirement Based|
 |  L_17 | Finding Decimal number from the given BCD code | 1100 | 12 |                |Requirement Based| 
+|  L_18 | Finding the excess-3 number from the given binary number | 1110| 01000111|                |Requirement Based|
+|  L_19 | Finding the binary number from the given excess-3 number | 01011001 | 11010|                |Requirement Based|
 
 
 
