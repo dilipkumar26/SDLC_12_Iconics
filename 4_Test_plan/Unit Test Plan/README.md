@@ -35,11 +35,11 @@
 |  L_20 |Suppose a company asks for Binary to excess-3 and vice versa for a given number 4|0100| 0111|                |scenario based|
 |  L_21 | Finding the decimal number from the given binary number | 9| 1001|                |Requirement Based|
 |  L_22 | Finding the binary number from the given decimal number | 0111 | 7|                |Requirement Based|
-|  L_20 |Suppose a company asks to convert a decimal number larger than the base numbers|16| 10000|                |scenario based|
-| L_21 | Finding the binary number from the given Hexadecimal number | 1E | 00011110 | | Requirement Based |
-| L_22 | Suppose we must use Binary code for a project instead of Hexadecimal | A9 | 10101001 | | Scenario Based |
-| L_23 | Finding Hexadecimal number from the binary number | 00011110 | 1E | | Requirement Based |
-| L_24 | Suppose we must use Hexadecimal code for a project instead of Binary code | 10101001 | A9 | | Scenario Based |
+|  L_23 |Suppose a company asks to convert a decimal number larger than the base numbers|16| 10000|                |scenario based|
+| L_24 | Finding the binary number from the given Hexadecimal number | 1E | 00011110 | | Requirement Based |
+| L_25 | Suppose we must use Binary code for a project instead of Hexadecimal | A9 | 10101001 | | Scenario Based |
+| L_26 | Finding Hexadecimal number from the binary number | 00011110 | 1E | | Requirement Based |
+| L_27 | Suppose we must use Hexadecimal code for a project instead of Binary code | 10101001 | A9 | | Scenario Based |
 
 
 
