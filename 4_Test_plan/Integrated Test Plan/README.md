@@ -1,4 +1,4 @@
-The following table determines the integrated test plan:
+The following table determines the integrated test plan
 
 | **Test ID** | **Description**                                              |**Purpose** |**Test cases** |   
 |-------------|--------------------------------------------------------------|------------|---------------|
