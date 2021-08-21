@@ -32,8 +32,10 @@
 |  L_17 | Finding Decimal number from the given BCD code | 1100 | 12 |                |Requirement Based| 
 |  L_18 | Finding the excess-3 number from the given binary number | 1110| 01000111|                |Requirement Based|
 |  L_19 | Finding the binary number from the given excess-3 number | 01011001 | 11010|                |Requirement Based|
-|  L_12 |Suppose a company asks for Binary to excess-3 and vice versa for a given number 4|0100| 0111|                |scenario based|
-
+|  L_20 |Suppose a company asks for Binary to excess-3 and vice versa for a given number 4|0100| 0111|                |scenario based|
+|  L_21 | Finding the decimal number from the given binary number | 9| 1001|                |Requirement Based|
+|  L_22 | Finding the binary number from the given decimal number | 0111 | 7|                |Requirement Based|
+|  L_20 |Suppose a company asks to convert a decimal number larger than the base numbers|16| 10000|                |scenario based|
 
 
 
