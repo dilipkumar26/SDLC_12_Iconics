@@ -40,7 +40,7 @@
 | L_25 | Suppose we must use Decimal for a project from a Hexadecimal code | A9 | 169 | | Scenario Based |
 | L_26 | Finding Hexadecimal number from the Decimal number | 140 | 8c | | Requirement Based |
 | L_27 | Suppose we must use Hexadecimal code for a project instead of Decimal code | 650 | 28A | | Scenario Based |
-
+| L_28 |Finding the rms value of input voltage | V=10 | 7.07 | Requirement based |
 
 
 
