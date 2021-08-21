@@ -42,7 +42,7 @@
 | L_27 | Suppose we must use Hexadecimal code for a project instead of Decimal code | 650 | 28A | | Scenario Based |
 | L_28 |Finding the rms value of input voltage | V=10V | 7.07V || Requirement based |
 | L_29 | Finding the rms value of input current | I=2A | 1.41A|| Requirement based |
-
+| L_30 | Finding the average voltage value of sinusoidal wave | V=4.5 | 2.86V || Requirement based|
 
 
 
