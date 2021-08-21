@@ -45,7 +45,7 @@
 | L_30 |suppose the company asks for the rms voltage of greater than 20 volt | V=30V | 21.21V || Scenario based|
 | L_31 | Finding the average voltage value of sinusoidal wave | V=4.5V | 2.86V || Requirement based|
 | L_32 | Finding the average current value of sinusoidal wave | I=10.28mA | 6.84mA  || Requirement based|
-| L_33 |suppose the company asks for the avg current of greater than 20 amps | i=30.84mA | 20.52 || Scenario based |
+| L_33 |suppose the company asks for the avg current of greater than 20 amps | i=30.84mA | 20.52mA || Scenario based |
 
 
 
