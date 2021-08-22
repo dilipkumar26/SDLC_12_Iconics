@@ -37,15 +37,15 @@
 |  L_22 | Finding the binary number from the given decimal number | 0111 | 7|                |Requirement Based|
 |  L_23 |Suppose a company asks to convert a decimal number larger than the base numbers|16| 10000|                |scenario based|
 | L_24 | Finding the binary number from the given Hexadecimal number | 1E | 30 | | Requirement Based |
-| L_25 | Suppose we must use Decimal for a project from a Hexadecimal code | A9 | 169 | | Scenario Based |
+| L_25 | Suppose we must use Decimal for a project from a Hexadecimal code | A9 | 169 |   | Scenario Based |
 | L_26 | Finding Hexadecimal number from the Decimal number | 140 | 8c | | Requirement Based |
-| L_27 | Suppose we must use Hexadecimal code for a project instead of Decimal code | 650 | 28A | | Scenario Based |
-| L_28 |Finding the rms value of input voltage | V=10V | 7.07V || Requirement based |
-| L_29 | Finding the rms value of input current | I=2A | 1.41A|| Requirement based |
-| L_30 |suppose the company asks for the rms voltage of greater than 20 volt | V=30V | 21.21V || Scenario based|
-| L_31 | Finding the average voltage value of sinusoidal wave | V=4.5V | 2.86V || Requirement based|
-| L_32 | Finding the average current value of sinusoidal wave | I=10.28mA | 6.84mA  || Requirement based|
-| L_33 |suppose the company asks for the avg current of greater than 20 amps | i=30.84mA | 20.52mA || Scenario based |
+| L_27 | Suppose we must use Hexadecimal code for a project instead of Decimal code | 650 | 28A |   | Scenario Based |
+| L_28 |Finding the rms value of input voltage | V=10V | 7.07V |   | Requirement based |
+| L_29 | Finding the rms value of input current | I=2A | 1.41A|   | Requirement based |
+| L_30 |suppose the company asks for the rms voltage of greater than 20 volt | V=30V | 21.21V |  | Scenario based|
+| L_31 | Finding the average voltage value of sinusoidal wave | V=4.5V | 2.86V |     | Requirement based|
+| L_32 | Finding the average current value of sinusoidal wave | I=10.28mA | 6.84mA  |   | Requirement based|
+| L_33 |suppose the company asks for the avg current of greater than 20 amps | i=30.84mA | 20.52mA |    | Scenario based |
 
 
 
