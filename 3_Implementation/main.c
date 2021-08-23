@@ -81,7 +81,6 @@ int main()
 				decimal_hexadecimal_conversion();
 				break;
 				case 3:
-				Binarytoexcess();
 				break;
 				case 4:
 				decimal_binary_conversion();
