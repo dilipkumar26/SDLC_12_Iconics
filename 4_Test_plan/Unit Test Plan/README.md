@@ -12,7 +12,7 @@
 ## Low level test plan
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  | **Status**|
-|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
+|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|------------|
 |  L_01       |Suppose we want to find the exact resistance through a device |V = 5v, I = 1mA|5 KILO OHMS|5 KILO OHMS  |Requirement based | Passed|
 |  L_02       |Supppose a company asks to design two 20 kilo ohms resistors in series|R1 = 20KILO OHMS, R2 = 20 KILO OHMS|40 KILO OHMS|40 KILO ohms|Scenario based|Passed|
 |  L_03       | Boundary when set between 1ohms and 100 MEGA ohms. Suppose there are two 300 EGA ohms resistors in parallel |R1 = 300 M OHMS, R2 = 300 MEGA OHMS|150 MEGA OHMS|150 MEGA OHMS|Boundary based|Failed|
