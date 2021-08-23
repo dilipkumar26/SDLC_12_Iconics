@@ -25,8 +25,8 @@
 |  L_10 |Finding the Gray code and Vice-Versa | 0011| 0010 |     0010           |Requirement based|Passed|
 |  L_11|Suppose we must use Binary code for a project | 0010| 0011|  0011              |Scenario based|Passed|
 |  L_12 |Suppose a company asks for both Binary and Gray at a time| 01101 01001| 01001 01101 |    01001 01101            |Boundary based|Passed|
-|  L_13 | Finding the excess-3 code for given BCD code | 0001 | 0100|                |Requirement Based|
-|  L_14 | Finding the BCD code from the given excess-3 code | 0111 | 0100|                |Requirement Based|
+|  L_13 | Finding the excess-3 code for given BCD code | 0001 | 0100| 0100               |Requirement Based|Passed|
+|  L_14 | Finding the BCD code from the given excess-3 code | 0111 | 0100|    0100            |Requirement Based|Passed|
 |  L_15 | In case of excess-3 to BCD conversion the number should be greater than 2| 0000 | XXXX|                |Boundary Based|
 |  L_16 | Finding BCD code for the given Decimal number | 5 | 0101 |                |Requirement Based|
 |  L_17 | Finding Decimal number from the given BCD code | 1100 | 12 |                |Requirement Based| 
