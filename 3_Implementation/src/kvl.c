@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include<stdlib.h>
 
+/**
+ * @brief Function to compute the loop currents
+ * 
+ * @param r The resistors matrix
+ * @param v The voltage matrix
+ * @return float** Pointer that points to the current matrix
+ */
 
 float **KVL_2(float r[2][2], float v[2][1])
 {
@@ -42,7 +49,10 @@ float **KVL_2(float r[2][2], float v[2][1])
     return i;
 }
 
-
+/**
+ * @brief Function to take inputs for 2 loops
+ * 
+ */
 void Loop_2_KVL (){
     float a[2][2];
     float v[2][1];
@@ -62,6 +72,14 @@ void Loop_2_KVL (){
     printf("%f\n", i[0][0]);
     printf("%f\n", i[1][0]);
 }
+
+/**
+ * @brief Function to compute the loop currents
+ * 
+ * @param r The resistors matrix
+ * @param v The voltage matrix
+ * @return float** Pointer that points to the current matrix
+ */
 
 float **KVL_3(float r[3][3], float v[3][1])
 {
@@ -103,7 +121,10 @@ float **KVL_3(float r[3][3], float v[3][1])
     return i;
 }
 
-
+/**
+ * @brief Function to take inputs for 3 loops
+ * 
+ */
 
 
 void Loop_3_KVL (){
@@ -145,10 +166,13 @@ void Loop_3_KVL (){
     printf("%f\n", i[2][0]);
 }
 
+/**
+ * @brief Function to call in main
+ * 
+ */
 
 
-
-void Loop_Kvl_Calculation(){
+void Loop_Kvl_Calculation{
     int choice;
     printf("1. Loop current calculation for 2 loop circuit\n"
     "2. Loop current calculation for 3 loop circuit\n");

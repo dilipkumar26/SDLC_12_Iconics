@@ -3,11 +3,11 @@
 
 ##  High level test plan
 
-| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
-|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  H_01       |Check the inputs given by the user are valid or not           | Correct Input provided |Corresponding operation executed   |  Inputs are valid      |Requirement based |
-|  H_02       |Check whether the inputs provided are invalid     | Invalid choice   |" Invalid " to be printed   |      |Scenario based  |
-|  H_03       |Suppose a company asks for 2 kilo ohms resistors              | R R R G    |2200 OHMS    |     |Boundary based    |
+| **Test ID** | **Description**                                              |**Type Of Test**  | **Status|   
+|-------------|--------------------------------------------------------------|------------|----------|
+|  H_01       |Check the required test plans inputs and verifying the outputs          |Requirement based |Implemented|
+|  H_02       |Check the test plans inputs for particular cases or needs, assuming it is given by the client |Scenario based  | Future implemention|
+|  H_03       |Checking the output for the boundary values and boundary conditions|Boundary based    |Implemented|
 
 ## Low level test plan
 
@@ -15,7 +15,7 @@
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|------------|
 |  L_01       |Suppose we want to find the exact resistance through a device |V = 5v, I = 1mA|5 KILO OHMS|5 KILO OHMS  |Requirement based | Passed|
 |  L_02       |Supppose a company asks to design two 20 kilo ohms resistors in series|R1 = 20KILO OHMS, R2 = 20 KILO OHMS|40 KILO OHMS|40 KILO ohms|Scenario based|Passed|
-|  L_03       | Boundary when set between 1ohms and 100 MEGA ohms. Suppose there are two 300 EGA ohms resistors in parallel |R1 = 300 M OHMS, R2 = 300 MEGA OHMS|150 MEGA OHMS|150 MEGA OHMS|Boundary based|Failed|
+|  L_03       | Boundary when set between 1ohms and 100 MEGA ohms. Suppose there are two 300 MEGA ohms resistors in parallel |R1 = 300 MEGA OHMS, R2 = 300 MEGA OHMS|150 MEGA OHMS|150 MEGA OHMS|Boundary based|Failed|
 |  L_04       |Testing whether the DecToOct conversion function is outputting correct value|18 (in dec)|22(in oct)| |Requirement based|
 |  L_05       |Testing whether the DecToOct conversion function is outputting correct value for boundary value (extreme cases)| 289175461 (in dec)|2117073645(in oct)| |Boundary based    |
 |  L_06       |Testing whether the OctToDec conversion function is outputting correct value|22 (in oct)|18(in dec)| |Requirement based    |
