@@ -26,7 +26,8 @@ src/operations.c\
 src/resistors_main.c\
 src/DC_Caliculation.c\
 src/dec_hex.c\
-src/decimal_binary_conversion.c
+src/decimal_binary_conversion.c\
+src/EnergyandTimeconstant.c
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
