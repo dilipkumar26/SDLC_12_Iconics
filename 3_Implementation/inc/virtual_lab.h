@@ -16,7 +16,4 @@ void decimal_hexadecimal_conversion();
 
 void decimal_binary_conversion();
 
-
-void Binarytoexcess();
-
 #endif
