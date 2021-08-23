@@ -17,11 +17,11 @@
 |  L_02       |Supppose a company asks to design two 20 kilo ohms resistors in series|R1 = 20KILO OHMS, R2 = 20 KILO OHMS|40 KILO OHMS|40 KILO ohms|Scenario based|Passed|
 |  L_03       | Boundary when set between 1ohms and 100 MEGA ohms. Suppose there are two 300 MEGA ohms resistors in parallel |R1 = 300 MEGA OHMS, R2 = 300 MEGA OHMS|150 MEGA OHMS|150 MEGA OHMS|Boundary based|Failed|
 |  L_04       |Testing whether the DecToOct conversion function is outputting correct value|18 (in dec)|22(in oct)| |Requirement based|
-|  L_05       |Testing whether the DecToOct conversion function is outputting correct value for boundary value (extreme cases)| 289175461 (in dec)|2117073645(in oct)| |Boundary based    |
-|  L_06       |Testing whether the OctToDec conversion function is outputting correct value|22 (in oct)|18(in dec)| |Requirement based    |
-|  L_07       |Testing whether the OctToDec conversion function is outputting correct value for boundary value (extreme cases)| 2117073645  (in oct)| 289175461(in dec)| |Boundary based    |
-|  L_08       |Testing whether the Frequency function is outputting correct value|L = 200(in mH), C = 10(in pF)|112.5 KHz| |Requirement based    |
-|  L_09       |Testing whether the Frequency conversion function is outputting correct value for boundary value (extreme cases)|L = 200000(in mH), C = 0.01(in F) |0.1125| |Boundary based    |
+|  L_05       |Testing whether the DecToOct conversion function is outputting correct value for boundary value (extreme cases). The range is between 1 to 3000000000| 289175461 (in dec)|2117073645(in oct)| |Boundary based    |
+|  L_06       |Testing whether the OctToDec conversion function is outputting correct value|22 (in oct)|18(in dec)| |Requirement based    |Passed|
+|  L_07       |Testing whether the OctToDec conversion function is outputting correct value for boundary value (extreme cases). The range is from 1 to 30000000000| 2117073645  (in oct)| 289175461(in dec)| |Boundary based    | Failed|
+|  L_08       |Testing whether the Frequency function is outputting correct value|L = 200(in mH), C = 10(in pF)|112.5 KHz| |Requirement based    |Passed|
+|  L_09       |Testing whether the Frequency conversion function is outputting correct value for boundary value (extreme cases). The range is between 1hz to 100Mhz|L = 200000(in mH), C = 0.01(in F) |0.1125| |Boundary based    | Passed|
 |  L_10 |Finding the Gray code and Vice-Versa | 0011| 0010 |                |Requirement based|
 |  L_11|Suppose we must use Binary code for a project | 0010| 0011|                |Scenario based|
 |  L_12 |Suppose a company asks for both Binary and Gray at a time| 01101 01001| 01001 01101 |                |Boundary based|
