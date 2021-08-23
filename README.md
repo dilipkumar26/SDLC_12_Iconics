@@ -2,7 +2,7 @@
 
 # SDLC Activity Based Learning
 
-# VIRTUAL ELECTRONICS LAB
+# ELECTRONICS CALCULATOR
 
 
 ![image](https://user-images.githubusercontent.com/67604549/130068222-b4dda5ed-6d9c-456c-8e2f-37955c1cbefe.png)
@@ -43,7 +43,6 @@ PS No.           | Name
 2. Tolerance Factor for each band. It was over comed by looking into which colour has which value of tolerance from the data sheet.
 3. Number of bands based on Resistance value. It was overcomed by using manual checking.
 4. Digital conversion from one unit to other. It was overcomed by reading the concepts from digital electronics from 12th standard electronics book.
-5. Sine wave genaration problem using binary bits. It was overcomed by understanding the concept of sine wave.
 
 
 
