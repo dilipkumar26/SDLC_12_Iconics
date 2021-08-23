@@ -2,6 +2,9 @@
 
 # SDLC Activity Based Learning
 
+# Badges
+[![C/C++ CI - Build Status](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/c-cpp.yml)
+
 # ELECTRONICS CALCULATOR
 
 
