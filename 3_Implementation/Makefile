@@ -1,6 +1,6 @@
 
 #all : 
-#	gcc -Iinc main.c kvl.c decimal_octal_conversion.c res_fq_calculation.c average_calculation.c rms_calculation.c binaryandgray.c operations.c resistors_main.c DC_Caliculation.c dec_hex.c decimal_binary_conversion.c -o Output.exe
+#	gcc -Iinc main.c kvl.c decimal_octal_conversion.c res_fq_calculation.c average_calculation.c rms_calculation.c binaryandgray.c operations.c resistors_main.c DC_Caliculation.c dec_hex.c decimal_binary_conversion.c EnergyandTimeconstant.c -o Output.exe
 
 #run: 
 #	Output.exe
