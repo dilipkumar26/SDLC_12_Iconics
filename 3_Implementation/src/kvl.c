@@ -172,7 +172,7 @@ void Loop_3_KVL (){
  */
 
 
-void Loop_Kvl_Calculation{
+void Loop_Kvl_Calculation(){
     int choice;
     printf("1. Loop current calculation for 2 loop circuit\n"
     "2. Loop current calculation for 3 loop circuit\n");
