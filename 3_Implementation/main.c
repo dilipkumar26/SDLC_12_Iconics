@@ -22,7 +22,8 @@ int main()
             "4. DC Value of Voltage or Current\n"
 			"5. Loop currents calculation using KVL \n"
 			"6. Resonant frequency calculation of LC tank circuit\n"
-			"7. Exit");
+			"7.Energy stored in Capacitor and Time constant of given circuit\n"
+			"8. Exit");
 
 			int choice_1;
 			printf("\nEnter your choice:");
@@ -50,6 +51,9 @@ int main()
 				res_fq_calculation();
 				break;
 				case 7:
+				EnergyandTimeconstant();
+				break;
+				case 8:
 				 exit(0); 
 			
 			default: printf("INVALID CHOICE!!!!!!\nPlease renter your choice");
@@ -63,10 +67,9 @@ int main()
 				third: printf("\nAvailable Operations\n");
    		 printf("\n1. Binary <-> Gray conversion \n"
             "2. Decimal <-->  Hexadecimal conversion\n"
-            "3. Binary <--> Excess 3 conversion\n"
-            "4. Decimal <--> Binary conversion\n"
-            "5. Decimal <--> Octal conversion\n"
-			"6. Exit");
+            "3. Decimal <--> Binary conversion\n"
+            "4. Decimal <--> Octal conversion\n"
+			"5. Exit");
 
 			int choice_2;
 			printf("\nEnter your choice:");
@@ -81,14 +84,12 @@ int main()
 				decimal_hexadecimal_conversion();
 				break;
 				case 3:
-				break;
-				case 4:
 				decimal_binary_conversion();
 				break;
-				case 5:
+				case 4:
 				decimal_octal_conversion();
 				break;		
-				case 6: exit(0); 
+				case 5: exit(0); 
 			
 				default: printf("INVALID CHOICE!!!!!!\nPlease renter your choice");
 				goto third;
