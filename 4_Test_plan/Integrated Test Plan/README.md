@@ -1,8 +1,8 @@
 The following table determines the integrated test plan
 
-| **Test ID** | **Description**                                              |**Purpose** |**Test cases** |   
-|-------------|--------------------------------------------------------------|------------|---------------|
-|  T_01       |Finding the colour code of resistors, cuurent , voltage and resistances | Getting to know the basics parametric values essential for any device or system| 10|
-|  T_02       |Finding the node voltage| Essential to know the voltage, current and other parameters accriss any junction to avoid breakdown of the system| 3|    
-| T_03 | Determining the digital  conversion| Essential to increase the accuracy of values collected| 15 |
+| **Test ID** | **Description**                                              |**Purpose**|**Status**|   
+|-------------|--------------------------------------------------------------|------------|--------|
+|  T_01       |Check all the operations are sekected as written in the code | To check if all choices are getting executed|Passed| 
+|  T_02       |Checking for invalid inputs condition|To check whether non test cases based values are getting executed or not|Passed|
+| T_03 | Checking whether all the operations are getting executed as per the order| To check if the entire code integrated is working or not|Passed|
 
