@@ -2,11 +2,12 @@
 #include<math.h>
 #include<stdlib.h>
 
+
 /**
- * @brief converts decimal to octal number 
+ * @brief converts decimal to octal number taking decimal number as argument
  * 
- * @param decimal number y
- * @return octal value o 
+ * @param decimalnum 
+ * @return int 
  */
 
 int dectooct(int decimalnum)
@@ -25,7 +26,7 @@ int dectooct(int decimalnum)
 
 
 /**
- * @brief converts octal to decimal values
+ * @brief converts octal to decimal value
  * 
  * @param octal-number
  * @return decimal value of given octal number
@@ -46,6 +47,11 @@ long long OctToDec(int octalNumber)
     return decimalNumber;
 }
 
+
+/**
+ * @brief This function asks the user the desired conversion and takes input
+ * 
+ */
 
 void decimal_octal_conversion()
 {
