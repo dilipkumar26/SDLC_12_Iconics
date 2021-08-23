@@ -13,7 +13,7 @@ float rms_voltage(float Vpeak)
 float rms_current(float Ipeak)
 {
     float Irms;
-    Irms=Ipeak*0.637;
+    Irms=Ipeak*0.707;
     return Irms;
 }
 
