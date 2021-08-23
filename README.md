@@ -4,6 +4,7 @@
 
 # Badges
 [![C/C++ CI - Build Status](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/c-cpp.yml)
+[![CI](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/main.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/main.yml)
 
 # ELECTRONICS CALCULATOR
 
