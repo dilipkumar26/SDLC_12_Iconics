@@ -54,16 +54,16 @@ SF Id. |  Name                  | No.  |  Features                          | Is
 ## Contributors List
 PS No.           | Name | Commits| Added| Deleted |
 -----------------|-------------------|-----|--------|------|
-`99005803`         | Akanksha R| 50|727|221|
+`99005803`         | Akanksha R| 55|790|314|
 `99005849`        | Ashwin G | 98 | 4510 | 279 |
-`99005780`         | M Karthika | 23 | 464 | 28 |
+`99005780`         | M Karthika | 32 | 468 | 32 |
 `99005837`        | Sangam Jain | 37 | 155 | 44 |
 `99005847`       | Prathamesh Devadiga|32 | 209 | 65 |
 `99005775`      | Dilip Kumar | 17 | 238 | 88 |
-`99005824`     | Ganiga Preethu | 31 | 391 | 35 |
-`99005796`         | Kolla Narasimha |14 | 111 | 14 |
+`99005824`     | Ganiga Preethu | 32| 416 | 60|
+`99005796`         | Kolla Narasimha |18 | 113 | 16 |
 `99005804`         | Nikhil Jose |9 | 37 | 28 |
-`99005845`         | Rohith Mirdoddi |6 | 58 | 3 |
+`99005845`         | Rohith Mirdoddi |7 | 73 | 24 |
                  
            
 
