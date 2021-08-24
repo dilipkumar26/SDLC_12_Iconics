@@ -56,7 +56,10 @@ test:$(BUILD)
 coverage:$(BUILD)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(SRC) $(INC) $(INC_U) $(INC_TE) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
-
+	
+valgrind:
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
+	
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
