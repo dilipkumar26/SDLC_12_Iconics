@@ -101,12 +101,12 @@ float **KVL_3(float r[3][3], float v[3][1])
     inverse_r[j][k]=((r[(k+1)%3][(j+1)%3] * r[(k+2)%3][(j+2)%3]) - (r[(k+1)%3][(j+2)%3] * r[(k+2)%3][(j+1)%3]))/ determinant;
     }
     }
-    for(j = 0; j < 3; j++){
+    /**for(j = 0; j < 3; j++){
     for(k = 0; k < 3; k++){
         printf("%f ", inverse_r[j][k]);
     }
     printf("\n");
-    }
+    }**/
     for(j=0;j<3;j++)                                    
     {    
         for(k=0;k<1;k++)    
@@ -152,15 +152,15 @@ void Loop_3_KVL (){
     scanf("%f", &v[0][0]);
     v[1][0]=0;
     v[2][0]=0;
-    int j,k;
-    for(j = 0; j < 3; j++){
+    /**for(j = 0; j < 3; j++){
     for(k = 0; k < 3; k++){
         printf("%f ", a[j][k]);
     }
     printf("\n");
-    }
+    }**/
     float **i;
     i = KVL_3(a,v);
+    printf("The loop currents are:\n");
     printf("%f\n", i[0][0]);
     printf("%f\n", i[1][0]);
     printf("%f\n", i[2][0]);
