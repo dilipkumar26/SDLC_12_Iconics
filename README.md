@@ -31,7 +31,7 @@ Folder             | Description
 SF Id. |  Name                  | No.  |  Features                          | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass|
 -------|------------------------|------|------------------------------------|----------------|---------------|-------------|--------------|
 `99005849` | Ashwin G          |1.    |Calculate Total series Resistance   |  1            |  1          | 4     | 4  |  
-`99005780` | M Karthika        |2.    |Calculate Total Parallel Resistance  |  0            |  0           |3         | 3|   
+`99005780` | M Karthika        |2.    |Calculate Total Parallel Resistance  |  1            |  3           |3         | 3|   
 `99005849` | Ashwin G          |3.    |Calculate Resistance based on voltage and current(Ohm's law) and colour coding |  1            |  1          | 4        | 4 | 
 `99005780` | M Karthika| 4. | Conversion of resistance from one unit to another| 0 | 0| 4|4|
 `99005803` | Akanksha R        |5.    |Calculate node voltage and current based on KVL |  1            |  1          | 2        | 2|  
