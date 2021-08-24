@@ -34,27 +34,21 @@
 | L_19 | Finding the 4 bit Binary from 8 bit Gray code | 10101010 | 1100 | 1100 | Requirement based | Passed |
 | L_20 | Suppose we must require 4 bit Binary code for a project | 10110010 | 1101 | 1101 | Scenario based | Passed |
 | L_21 | Suppose someone enters a value larger than the permitted value | 100000000 | "**Please Enter a Valid 8 bit Binary Number**" |  "**Please Enter a Valid 8 bit Binary Number**" | Boundary based | Passed |
-|  L_22 | Finding the excess-3 code for given BCD code | 0001 | 0100| 0100               |Requirement Based|Passed|
-|  L_23 | Finding the BCD code from the given excess-3 code | 0111 | 0100|    0100            |Requirement Based|Passed|
-|  L_24 | In case of excess-3 to BCD conversion the number should be greater than 2| 0000 | XXXX|   No input             |Boundary Based|Failed|
-|  L_25 | Finding BCD code for the given Decimal number | 5 | 0101 |     0101           |Requirement Based|Passed|
-|  L_26 | Finding Decimal number from the given BCD code | 1100 | 12 |   12             |Requirement Based| Passed|
-|  L_27 | Finding the excess-3 number from the given binary number | 1110| 01000111|    01000111            |Requirement Based|Passed|
-|  L_28 | Finding the binary number from the given excess-3 number | 01011001 | 11010|   11010            |Requirement Based|Passed|
-|  L_29 |Suppose a company asks for Binary to excess-3 and vice versa for a given number 4|0100| 0111|     0111           |scenario based|Pssed|
-|  L_30 | Finding the decimal number from the given binary number | 9| 1001|    1001            |Requirement Based|Passed|
-|  L_31 | Finding the binary number from the given decimal number | 0111 | 7|     7           |Requirement Based|Passed|
-|  L_32 |Suppose a company asks to convert a decimal number larger than the base numbers|16| 10000|    10000            |scenario based|Passed|
-| L_33 | Finding the binary number from the given Hexadecimal number | 1E | 30 |30 | Requirement Based |Passed|
-| L_34 | Suppose we must use Decimal for a project from a Hexadecimal code | A9 | 169 | 169  | Scenario Based |Passed|
-| L_35 | Finding Hexadecimal number from the Decimal number | 140 | 8c | 8c| Requirement Based |Passed|
-| L_36 | Suppose we must use Hexadecimal code for a project instead of Decimal code | 650 | 28A |  28A | Scenario Based |Passed|
-| L_37 |Finding the rms value of input voltage | V=10V | 7.07V | 7.07V | Requirement based |Passed|
-| L_38 | Finding the rms value of input current | I=2A | 1.41A|  1.41A | Requirement based |Passed|
-| L_39 |suppose the company asks for the rms voltage of greater than 20 volt | V=30V | 21.21V | 21.21V | Scenario based|Passed|
-| L_40 | Finding the average voltage value of sinusoidal wave | V=4.5V | 2.86V |   2.86V  | Requirement based|Passed|
-| L_41 | Finding the average current value of sinusoidal wave | I=10.28mA | 6.84mA  | 6.84mA  | Requirement based|Passed|
-| L_42 |suppose the company asks for the avg current of greater than 20 amps | i=30.84mA | 20.52mA |  20.52mA  | Scenario based |Passed|
+|  L_22 | Finding BCD code for the given Decimal number | 5 | 0101 |     0101           |Requirement Based|Passed|
+|  L_23 | Finding Decimal number from the given BCD code | 1100 | 12 |   12             |Requirement Based| Passed|
+|  L_24 | Finding the decimal number from the given binary number | 9| 1001|    1001            |Requirement Based|Passed|
+|  L_25 | Finding the binary number from the given decimal number | 0111 | 7|     7           |Requirement Based|Passed|
+|  L_26 |Suppose a company asks to convert a decimal number larger than the base numbers|16| 10000|    10000            |scenario based|Passed|
+| L_27 | Finding the binary number from the given Hexadecimal number | 1E | 30 |30 | Requirement Based |Passed|
+| L_28 | Suppose we must use Decimal for a project from a Hexadecimal code | A9 | 169 | 169  | Scenario Based |Passed|
+| L_29 | Finding Hexadecimal number from the Decimal number | 140 | 8c | 8c| Requirement Based |Passed|
+| L_30 | Suppose we must use Hexadecimal code for a project instead of Decimal code | 650 | 28A |  28A | Scenario Based |Passed|
+| L_31 |Finding the rms value of input voltage | V=10V | 7.07V | 7.07V | Requirement based |Passed|
+| L_32 | Finding the rms value of input current | I=2A | 1.41A|  1.41A | Requirement based |Passed|
+| L_33 |suppose the company asks for the rms voltage of greater than 20 volt | V=30V | 21.21V | 21.21V | Scenario based|Passed|
+| L_34 | Finding the average voltage value of sinusoidal wave | V=4.5V | 2.86V |   2.86V  | Requirement based|Passed|
+| L_35 | Finding the average current value of sinusoidal wave | I=10.28mA | 6.84mA  | 6.84mA  | Requirement based|Passed|
+| L_36 |suppose the company asks for the avg current of greater than 20 amps | i=30.84mA | 20.52mA |  20.52mA  | Scenario based |Passed|
 
 
 
