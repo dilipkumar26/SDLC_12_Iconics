@@ -163,7 +163,7 @@ void test_OctToDec(void) {
 
 void test_fq_calculator(void) {
   TEST_ASSERT_EQUAL(112.5, fq_calculator(200,10));
-  TEST_ASSERT_EQUAL(0.000113, fq_calculator(200000,10000000000)));
+  TEST_ASSERT_EQUAL(0.000113, fq_calculator(200000,10000000000));
   
 }
 
