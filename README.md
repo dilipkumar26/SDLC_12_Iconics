@@ -37,7 +37,7 @@ SF Id. |  Name                  | No.  |  Features                          | Is
 `99005803` | Akanksha R        |5.    |Calculate node voltage and current based on KVL |  1            |  1          | 2        | 2|  
 `99005824 `| Ganiga Preethu| 6. | Conversion from decimal to octal and vice versa| 0 |0| 4|4|
 `99005803 `        | Akanksha R |7 . | Calculation of frequency | 0| 0| 2 | 2 |
-`99005847`       | Prathamesh Devadiga | 8. |Calculation of RMS values of current and voltage| 0 | 0 | 3|3|
+`99005847`       | Prathamesh Devadiga | 8. |Calculation of RMS values of current and voltage| 1 | 0 | 3|3|
 `99005796`         | Kolla Narasimha | 9. |Calculation of average values of current and voltage | 0 | 0 | 3 | 3|
 `99005837`        | Sangam Jain | 10. | Conversion from decimal to binary | 1 | 1 | 8 | 8 |
 `99005845`         | Rohith Mirdoddi| 11. | Calculation of energy stored and time constant | 0 | 0 | 4 | 4 |
