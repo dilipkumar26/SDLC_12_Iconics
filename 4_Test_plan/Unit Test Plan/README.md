@@ -25,8 +25,8 @@
 | L_10 | Finding the 8 bit Gray from 8 bit binary code | 10101010 | 11111111 | 11111111 | Requirement based | Passed |
 | L_11 | Suppose we must require 8 bit Gray code for a project | 10110010 | 11101011 | 11101011 | Scenario based | Passed |
 | L_12 | Suppose someone enters a value larger than the permitted value | 100000000 | "**Please Enter a Valid 8 bit Binary Number**" |  "**Please Enter a Valid 8 bit Binary Number**" | Boundary based | Passed |
-| L_13 | Finding the 4 bit Gray from 8 bit binary code | 10101010 | 11111111 | 1111 | Requirement based | Passed |
-| L_14 | Suppose we must require 4 bit Gray code for a project | 10110010 | 11101011 | 1110 | Scenario based | Passed |
+| L_13 | Finding the 4 bit Gray from 8 bit binary code | 10101010 | 1111 | 1111 | Requirement based | Passed |
+| L_14 | Suppose we must require 4 bit Gray code for a project | 10110010 | 1110 | 1110 | Scenario based | Passed |
 | L_15 | Suppose someone enters a value larger than the permitted value | 100000000 | "**Please Enter a Valid 8 bit Binary Number**" |  "**Please Enter a Valid 8 bit Binary Number**" | Boundary based | Passed |
 | L_16 | Finding the 8 bit Binary from 8 bit Gray code | 10101010 | 11001100 | 11001100 | Requirement based | Passed |
 | L_17 | Suppose we must require 8 bit Binary code for a project | 10110010 | 11011100 | 11011100 | Scenario based | Passed |
