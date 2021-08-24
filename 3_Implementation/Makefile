@@ -23,7 +23,7 @@ src/decimal_binary_conversion.c\
 src/EnergyandTimeconstant.c
 
 # All test source files
-TEST_SRC =test/test.c\
+TEST_SRC =Test/Test.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
