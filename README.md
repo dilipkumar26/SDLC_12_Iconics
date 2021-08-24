@@ -6,6 +6,7 @@
 [![C/C++ CI - Build Status](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/c-cpp.yml)
 [![CI](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/main.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/main.yml)
 [![Code Quality - Static Code - Cppcheck](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/code_quality.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/code_quality.yml)
+[![CI-Coverage](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/code-coverage.yml)
 
 # ELECTRONICS CALCULATOR
 
