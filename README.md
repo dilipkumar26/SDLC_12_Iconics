@@ -40,7 +40,7 @@ SF Id. |  Name                  | No.  |  Features                          | Is
 `99005803 `        | Akanksha R |7 . | Calculation of frequency | 0| 0| 2 | 2 |
 `99005847`       | Prathamesh Devadiga | 8. |Calculation of RMS values and average values of current and voltage| 1 | 0 | 3|3|
 `99005796`         | Kolla Narasimha | 9. |DC calculation of power, current and voltage | 0 | 0 | 3 | 3|
-`99005837`        | Sangam Jain | 10. | Conversion from decimal to binary | 1 | 1 | 8 | 8 |
+`99005837`        | Sangam Jain | 10. | Conversion from decimal to binary and vice versa | 1 | 1 | 8 | 8 |
 `99005845`         | Rohith Mirdoddi| 11. | Calculation of energy stored and time constant | 0 | 0 | 4 | 4 |
 `99005804`         | Nikhil Jose | 12. | Conversion from binary to gray and vice versa| 0 | 0 | 8 | 8 |
 `99005775`      | Dilip Kumar | 13. | Conversion from decimal to hexadecimal and vice versa | 0 | 0 | 7 | 7 |
