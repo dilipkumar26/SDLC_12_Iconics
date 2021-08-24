@@ -3,7 +3,7 @@
 #include "freq_kvl.h"
 #include "binaryandgray.h"
 #include "hexanddecimal.h"
-#include "BinarytodecimalandViceversa.h"
+#include "decimal_to_bin.h"
 #include "EnergyandTimeconstant.h"
 #include "avg_rms.h"
 /* Modify these two lines according to the project */
