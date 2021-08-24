@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include<stdlib.h>
 
-/**
- * @brief Function to compute the loop currents
- * 
- * @param r The resistors matrix
- * @param v The voltage matrix
- * @return float** Pointer that points to the current matrix
- */
 
 float **KVL_2(float r[2][2], float v[2][1])
 {
@@ -49,10 +42,7 @@ float **KVL_2(float r[2][2], float v[2][1])
     return i;
 }
 
-/**
- * @brief Function to take inputs for 2 loops
- * 
- */
+
 void Loop_2_KVL (){
     float a[2][2];
     float v[2][1];
@@ -69,17 +59,10 @@ void Loop_2_KVL (){
     v[1][0]=0;
     float **i;
     i = KVL_2(a,v);
-    printf("%f\n", i[0][0]);
-    printf("%f\n", i[1][0]);
+    printf("The loop currents are:\n");
+    printf("loop1:%f Amps\n", i[0][0]);
+    printf("loop2: %f Amps\n", i[1][0]);
 }
-
-/**
- * @brief Function to compute the loop currents
- * 
- * @param r The resistors matrix
- * @param v The voltage matrix
- * @return float** Pointer that points to the current matrix
- */
 
 float **KVL_3(float r[3][3], float v[3][1])
 {
@@ -101,12 +84,12 @@ float **KVL_3(float r[3][3], float v[3][1])
     inverse_r[j][k]=((r[(k+1)%3][(j+1)%3] * r[(k+2)%3][(j+2)%3]) - (r[(k+1)%3][(j+2)%3] * r[(k+2)%3][(j+1)%3]))/ determinant;
     }
     }
-    /**for(j = 0; j < 3; j++){
+    for(j = 0; j < 3; j++){
     for(k = 0; k < 3; k++){
         printf("%f ", inverse_r[j][k]);
     }
     printf("\n");
-    }**/
+    }
     for(j=0;j<3;j++)                                    
     {    
         for(k=0;k<1;k++)    
@@ -121,10 +104,7 @@ float **KVL_3(float r[3][3], float v[3][1])
     return i;
 }
 
-/**
- * @brief Function to take inputs for 3 loops
- * 
- */
+
 
 
 void Loop_3_KVL (){
@@ -152,40 +132,52 @@ void Loop_3_KVL (){
     scanf("%f", &v[0][0]);
     v[1][0]=0;
     v[2][0]=0;
-    /**for(j = 0; j < 3; j++){
+    int j,k;
+    for(j = 0; j < 3; j++){
     for(k = 0; k < 3; k++){
         printf("%f ", a[j][k]);
     }
     printf("\n");
-    }**/
+    }
     float **i;
     i = KVL_3(a,v);
     printf("The loop currents are:\n");
-    printf("%f\n", i[0][0]);
-    printf("%f\n", i[1][0]);
-    printf("%f\n", i[2][0]);
+    printf("loop1: %f Amps\n", i[0][0]);
+    printf("loop2: %f Amps\n", i[1][0]);
+    printf("loop3: %f Amps\n", i[2][0]);
 }
 
-/**
- * @brief Function to call in main
- * 
- */
+
 
 
 void Loop_Kvl_Calculation(){
     int choice;
-    printf("1. Loop current calculation for 2 loop circuit\n"
+    first:printf("Available choices\n"
+    "1. Loop current calculation for 2 loop circuit\n"
     "2. Loop current calculation for 3 loop circuit\n");
     
         scanf("%d", &choice);
-        if(choice==1)
+        switch(choice)
         {
-            Loop_2_KVL();
+            case 1:
+             Loop_2_KVL();
+             break;
 
-        }   
-        else if(choice==2)
-        {
-            Loop_3_KVL();
+             case 2:
+             Loop_3_KVL();
+             break;
+
+              case 3:
+             exit(0);
+            
+            default:
+            printf("INVALID CHOICE!!!!!!\nPlease renter your choice");
+	        goto first;
+
+
+
+
         }
+        
     
 }
