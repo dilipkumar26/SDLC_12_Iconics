@@ -137,13 +137,13 @@ void test_unit_conv4(void) {
 
 void testbin_dec()
 {
-    TEST_ASSERT_EQUAL(214,Binarytodecimal(11010110));
-    TEST_ASSERT_EQUAL(53,Binarytodecimal(00110101));
+    TEST_ASSERT_EQUAL(214,bin_dec(11010110));
+    TEST_ASSERT_EQUAL(53,bin_dec(00110101));
 }
 void testdec_bin()
 {
-    TEST_ASSERT_EQUAL(1001,decimaltoBinary(9));
-    TEST_ASSERT_EQUAL(11110,decimaltoBinary(30));
+    TEST_ASSERT_EQUAL(1001,dec_bin(9));
+    TEST_ASSERT_EQUAL(11110,dec_bin(30));
     
 }
 
@@ -223,16 +223,16 @@ void test_unit_eightBitGrayTo4BitBinary(void) {
 
 
 void test_unit_DecimalToHexadecimal(void) {
-  TEST_ASSERT_EQUAL(1130, DecimalToHexadecimal("046A"));
-  TEST_ASSERT_EQUAL(854, DecimalToHexadecimal("0356"));
-  TEST_ASSERT_EQUAL(2021, DecimalToHexadecimal("07E5"));
-  TEST_ASSERT_EQUAL(50584, DecimalToHexadecimal("C598"));
+  TEST_ASSERT_EQUAL(1130, dechexa("046A"));
+  TEST_ASSERT_EQUAL(854, dechexa("0356"));
+  TEST_ASSERT_EQUAL(2021, dechexa("07E5"));
+  TEST_ASSERT_EQUAL(50584, dechexa("C598"));
 }
 
 void test_unit_HexadecimalToDecimal(void) {
-  TEST_ASSERT_EQUAL("56A8", HexadecimalToDecimal(22184));
-  TEST_ASSERT_EQUAL("5F3", HexadecimalToDecimal(1523));
-  TEST_ASSERT_EQUAL("DFF", HexadecimalToDecimal(3583));
+  TEST_ASSERT_EQUAL("56A8", hexadec(22184));
+  TEST_ASSERT_EQUAL("5F3", hexadec(1523));
+  TEST_ASSERT_EQUAL("DFF", hexadec(3583));
 }
 
 
