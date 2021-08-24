@@ -36,7 +36,19 @@ PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 $(PROJECT_NAME):all
 
 # Run the target even if the matching name exists
-.PHONY: run test doc clean all
+ifdef OS
+   RM = del 
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
+
+.PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT) -lm
