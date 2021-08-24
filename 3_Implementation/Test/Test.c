@@ -60,8 +60,8 @@ int test_main()
   RUN_TEST(test_unit_conv4);
   RUN_TEST(test_cal_res);
   RUN_TEST(test_res_val);
-  #RUN_TEST(testbin_dec);
-  #RUN_TEST(testdec_bin);
+  //RUN_TEST(testbin_dec);
+  //RUN_TEST(testdec_bin);
   RUN_TEST(test_dectooct);
   RUN_TEST(test_OctToDec);
   RUN_TEST(test_fq_calculator);
@@ -71,8 +71,8 @@ int test_main()
   RUN_TEST(test_unit_eightBitBinaryTo4BitGray);
   RUN_TEST(test_unit_eightBitGrayTo8BitBinary);
   RUN_TEST(test_unit_eightBitGrayTo4BitBinary);
-  #RUN_TEST(test_unit_DecimalToHexadecimal);
-  #RUN_TEST(test_unit_HexadecimalToDecimal);
+  //RUN_TEST(test_unit_DecimalToHexadecimal);
+  //RUN_TEST(test_unit_HexadecimalToDecimal);
   RUN_TEST(test_EnergyStored);
   RUN_TEST(test_TimeConstant);
   RUN_TEST(test_rms_voltage);
@@ -136,7 +136,7 @@ void test_unit_conv4(void) {
 }
 
 
-#void testbin_dec()
+/*void testbin_dec()
 #{
  #   TEST_ASSERT_EQUAL(214,bin_dec(11010110));
   #  TEST_ASSERT_EQUAL(53,bin_dec(00110101));
@@ -146,7 +146,7 @@ void test_unit_conv4(void) {
  #   TEST_ASSERT_EQUAL(1001,dec_bin(9));
  #   TEST_ASSERT_EQUAL(11110,dec_bin(30));
     
-#}
+#}*/
 
 
 void test_dectooct(void) {
@@ -216,7 +216,7 @@ void test_unit_eightBitGrayTo4BitBinary(void) {
 }
 
 
-#void test_unit_DecimalToHexadecimal(void) {
+/*#void test_unit_DecimalToHexadecimal(void) {
  # TEST_ASSERT_EQUAL(1130, dechexa("046A"));
   #TEST_ASSERT_EQUAL(854, dechexa("0356"));
   #TEST_ASSERT_EQUAL(2021, dechexa("07E5"));
@@ -227,7 +227,7 @@ void test_unit_eightBitGrayTo4BitBinary(void) {
   #TEST_ASSERT_EQUAL("56A8", hexadec(22184));
   #TEST_ASSERT_EQUAL("5F3", hexadec(1523));
   #TEST_ASSERT_EQUAL("DFF", hexadec(3583));
-#}
+#}*/
 
 
 
