@@ -8,7 +8,8 @@
 #include "avg_rms.h"
 #include "test.h"
 /* Modify these two lines according to the project */
-
+#include<math.h>
+#include<stdio.h>
 #define PROJECT_NAME   "Electronics lab"
 
 /* Prototypes for all the test functions */
