@@ -6,6 +6,8 @@ BUILD = build
 # All include folders with header files
 #---------------------unity file need to added 
 INC	= -Iinc
+INC_U   = -IUnity
+INC_TE  = -ITest
 
 # All source code files
 SRC = main.c\
@@ -24,7 +26,7 @@ src/EnergyandTimeconstant.c
 
 # All test source files
 TEST_SRC =Test/Test.c\
-unity/unity.c\
+Unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
@@ -34,7 +36,19 @@ PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 $(PROJECT_NAME):all
 
 # Run the target even if the matching name exists
-.PHONY: run test doc clean all
+ifdef OS
+   RM = del 
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
+
+.PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT) -lm
@@ -46,15 +60,18 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(SRC) $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	gcc $(SRC) $(TEST_SRC) $(INC) $(INC_U) $(INC_TE) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 
 
 #Coverage
 coverage:$(BUILD)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(SRC) $(INC) -o $(TEST_OUTPUT)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(SRC) $(INC) $(INC_U) $(INC_TE) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
-
+	
+valgrind:
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
+	
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 

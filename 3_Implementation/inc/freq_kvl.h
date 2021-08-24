@@ -2,6 +2,7 @@
 #define  __freq_kvl__h__
 
 #include<stdio.h>
+#include<math.h>
 /**
  * @brief decimal-octal conversion
  * 

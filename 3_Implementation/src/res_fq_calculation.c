@@ -6,7 +6,7 @@ double f=0.00, L=0.00,C=0.00;
 double fq_calculator(double L,double C);
 
 /**
- * @brief this function asks the user to enter L and C values
+ * @brief this function asks the user to enter L(inductor) and C(capacitor) values
  * 
  */
 
@@ -24,9 +24,9 @@ void res_fq_calculation()
 /**
  * @brief this function calculates resonant frequency taking inductor and capacitor values
  * 
- * @param L 
- * @param C 
- * @return double 
+ * @param L-value of inductance 
+ * @param C-value of capacitance
+ * @return double (value of resonant frequency)
  */
 double fq_calculator(double L,double C)
 {

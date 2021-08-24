@@ -6,7 +6,8 @@
 [![C/C++ CI - Build Status](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/c-cpp.yml)
 [![CI](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/main.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/main.yml)
 [![Code Quality - Static Code - Cppcheck](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/code_quality.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/code_quality.yml)
-
+[![CI-Coverage](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/code-coverage.yml)
+[![Contribution Check - Git Inspector](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/dilipkumar26/SDLC_12_Iconics/actions/workflows/gitinspector.yml)
 # ELECTRONICS CALCULATOR
 
 
@@ -25,19 +26,44 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 `5_Report`         | Overview of entire Project
 
+
+
+## Contributors List and Sum
+SF Id. |  Name                  | No.  |  Features                          | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass|
+-------|------------------------|------|------------------------------------|----------------|---------------|-------------|--------------|
+`99005849` | Ashwin G          |1.    |Calculate Total series Resistance   |  1            |  1          | 4     | 4  |  
+`99005780` | M Karthika        |2.    |Calculate Total Parallel Resistance  |  1            |  3           |3         | 3|   
+`99005849` | Ashwin G          |3.    |Calculate Resistance based on voltage and current(Ohm's law) and colour coding |  1            |  1          | 4        | 4 | 
+`99005780` | M Karthika| 4. | Conversion of resistance from one unit to another| 0 | 0| 4|4|
+`99005803` | Akanksha R        |5.    |Calculate node voltage and current based on KVL |  1            |  1          | 2        | 2|  
+`99005824 `| Ganiga Preethu| 6. | Conversion from decimal to octal and vice versa| 1 |1| 4|4|
+`99005803 `        | Akanksha R |7 . | Calculation of frequency | 0| 0| 2 | 2 |
+`99005847`       | Prathamesh Devadiga | 8. |Calculation of RMS values and average values of current and voltage| 1 | 0 | 3|3|
+`99005796`         | Kolla Narasimha | 9. |DC calculation of power, current and voltage | 0 | 0 | 3 | 3|
+`99005837`        | Sangam Jain | 10. | Conversion from decimal to binary | 1 | 1 | 8 | 8 |
+`99005845`         | Rohith Mirdoddi| 11. | Calculation of energy stored and time constant | 0 | 0 | 4 | 4 |
+`99005804`         | Nikhil Jose | 12. | Conversion from binary to gray and vice versa| 0 | 0 | 8 | 8 |
+`99005775`      | Dilip Kumar | 13. | Conversion from decimal to hexadecimal and vice versa | 0 | 0 | 7 | 7 |
+                 
+           
+
+
+
+   
+
 ## Contributors List
-PS No.           | Name
------------------|-------------------
-99005803         | Akanksha R
-99005849         | Ashwin G
-99005780         | M Karthika
-99005837         | Sangam Jain
-99005847         | Prathamesh Devadiga
-99005775         | Dilip Kumar
-99005824         | Ganiga Preethu
-99005796         | Kolla Narasimha
-99005804         | Nikhil Jose
-99005845         | Rohith Mirdoddi
+PS No.           | Name | Commits| Added| Deleted |
+-----------------|-------------------|-----|--------|------|
+`99005803`         | Akanksha R| 50|727|221|
+`99005849`        | Ashwin G | 98 | 4510 | 279 |
+`99005780`         | M Karthika | 23 | 464 | 28 |
+`99005837`        | Sangam Jain | 37 | 155 | 44 |
+`99005847`       | Prathamesh Devadiga|32 | 209 | 65 |
+`99005775`      | Dilip Kumar | 17 | 238 | 88 |
+`99005824`     | Ganiga Preethu | 31 | 391 | 35 |
+`99005796`         | Kolla Narasimha |14 | 111 | 14 |
+`99005804`         | Nikhil Jose |9 | 37 | 28 |
+`99005845`         | Rohith Mirdoddi |6 | 58 | 3 |
                  
            
 

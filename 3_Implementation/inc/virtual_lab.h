@@ -1,6 +1,7 @@
 #ifndef  __VIRTUAL_LAB_h__
 #define  __VIRTUAL_LAB_h__
 #include <stdio.h>
+#include <math.h>
 void Loop_Kvl_Calculation();
 void res_fq_calculation();
 void decimal_octal_conversion();

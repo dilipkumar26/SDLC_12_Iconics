@@ -38,8 +38,9 @@ int hexadec()
             j++;
         }
     }
+    // output = b.hexa;
     printf("Decimal number of %s is %d",b.hexa,sum); // prints the output for the user input (Decimal value)
-    return 0; 
+    return sum; 
 }
 
 /**
@@ -47,9 +48,9 @@ int hexadec()
  * 
  * @return int retuns the Hexadecimal value
  */
-int dechexa()
+char* dechexa()
 {
-    long dec,qu,rem;
+    long dec,qu,rem,out;
     int i,j=0;
     printf("Enter decimal number: "); // user must give the decimal value
     scanf("%ld", &dec);
@@ -64,8 +65,8 @@ int dechexa()
         qu = qu / 16;
     }
     for (i=j;i>=0;i--) 
-            printf("%c",b.hexa[i]); // prints the output for the user input (Hexadecimla value) 
-    return 0;
+        printf("%c",b.hexa[i]); // prints the output for the user input (Hexadecimla value) 
+    return b.hexa;
 }
 
 /**
