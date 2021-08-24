@@ -43,12 +43,16 @@
 | L_28 | Suppose we must use Decimal for a project from a Hexadecimal code | A9 | 169 | 169  | Scenario Based |Passed|
 | L_29 | Finding Hexadecimal number from the Decimal number | 140 | 8c | 8c| Requirement Based |Passed|
 | L_30 | Suppose we must use Hexadecimal code for a project instead of Decimal code | 650 | 28A |  28A | Scenario Based |Passed|
-| L_31 |Finding the rms value of input voltage | V=10V | 7.07V | 7.07V | Requirement based |Passed|
-| L_32 | Finding the rms value of input current | I=2A | 1.41A|  1.41A | Requirement based |Passed|
-| L_33 |suppose the company asks for the rms voltage of greater than 20 volt | V=30V | 21.21V | 21.21V | Scenario based|Passed|
-| L_34 | Finding the average voltage value of sinusoidal wave | V=4.5V | 2.86V |   2.86V  | Requirement based|Passed|
-| L_35 | Finding the average current value of sinusoidal wave | I=10.28mA | 6.84mA  | 6.84mA  | Requirement based|Passed|
-| L_36 |suppose the company asks for the avg current of greater than 20 amps | i=30.84mA | 20.52mA |  20.52mA  | Scenario based |Passed|
+| L_31 | Finding the Energy Stored in a capacitor | C = 20000, V = 230| 529 | 529 | Requirement Based|Passed|
+| L_32 | Finding the Energy Stored in a capacitor | C = 1000000, V = 230| 26500 | 26500 | Requirement Based|Passed|
+| L_33 | Finding the Time Constant of the RC circuit | R = 50, C = 20000| 1 | 1 | Requirement Based|Passed|
+| L_34 | Finding the Time Constant of the RC circuit | R = 100, C = 1000000| 100 | 100 | Requirement Based|Passed|
+| L_35 |Finding the rms value of input voltage | V=10V | 7.07V | 7.07V | Requirement based |Passed|
+| L_36 | Finding the rms value of input current | I=2A | 1.41A|  1.41A | Requirement based |Passed|
+| L_37 |suppose the company asks for the rms voltage of greater than 20 volt | V=30V | 21.21V | 21.21V | Scenario based|Passed|
+| L_38 | Finding the average voltage value of sinusoidal wave | V=4.5V | 2.86V |   2.86V  | Requirement based|Passed|
+| L_39 | Finding the average current value of sinusoidal wave | I=10.28mA | 6.84mA  | 6.84mA  | Requirement based|Passed|
+| L_40 |suppose the company asks for the avg current of greater than 20 amps | i=30.84mA | 20.52mA |  20.52mA  | Scenario based |Passed|
 
 
 
