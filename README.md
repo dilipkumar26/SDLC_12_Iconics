@@ -36,7 +36,7 @@ SF Id. |  Name                  | No.  |  Features                          | Is
 `99005849` | Ashwin G          |3.    |Calculate Resistance based on voltage and current(Ohm's law) and colour coding |  1            |  1          | 4        | 4 | 
 `99005780` | M Karthika| 4. | Conversion of resistance from one unit to another| 0 | 0| 4|4|
 `99005803` | Akanksha R        |5.    |Calculate node voltage and current based on KVL |  1            |  1          | 2        | 2|  
-`99005824 `| Ganiga Preethu| 6. | Conversion from decimal to octal and vice versa| 0 |0| 4|4|
+`99005824 `| Ganiga Preethu| 6. | Conversion from decimal to octal and vice versa| 1 |1| 4|4|
 `99005803 `        | Akanksha R |7 . | Calculation of frequency | 0| 0| 2 | 2 |
 `99005847`       | Prathamesh Devadiga | 8. |Calculation of RMS values and average values of current and voltage| 1 | 0 | 3|3|
 `99005796`         | Kolla Narasimha | 9. |DC calculation of power, current and voltage | 0 | 0 | 3 | 3|
