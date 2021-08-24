@@ -25,6 +25,18 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 `5_Report`         | Overview of entire Project
 
+
+
+## Contributors List and Sum
+SF Id. |  Name                  | No.  |  Features                          | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass|
+-------|------------------------|------|------------------------------------|----------------|---------------|-------------|--------------|
+`99005849` | Ashwin G          |1.    |Calculate Total series Resistance   |  1            |  1          | 2      | 2  |  
+`99005780` | M Karthika        |2.    |Calculate Total Parallel Resistance  |  0            |  0           |2         | 2|   
+`99005849` | Ashwin G          |3.    |Calculate Resistance based on voltage and current(Ohm's law) and colour coding |  1            |  1          | 3          | 3 |   
+`99005803` | Akanksha R        |4.    |Calculate node voltage and current based on KVL |  1            |  1          | 2        | 2|    
+
+   
+
 ## Contributors List
 PS No.           | Name
 -----------------|-------------------
