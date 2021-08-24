@@ -8,7 +8,7 @@ int main()
 	int choice;
 	printf("--------------Welcome to the ELETRONICS LAB------------");
 	printf("\n---Menu---\n");
-	first:printf("\nList of operations\n1)Electrical Parameters\n 2)Base conversions\n 3)EXIT");
+	printf("\nList of operations\n1)Electrical Parameters\n 2)Base conversions\n 3)EXIT");
 	printf("\nEnter your choice:");
 	scanf("%d",&choice);
 	switch(choice)
@@ -102,7 +102,7 @@ int main()
 	exit(0);
 
 	default:printf("INVALID CHOICE!!!!!!\nPlease renter your choice");
-	goto first;
+
     }
 
 	return 0;
