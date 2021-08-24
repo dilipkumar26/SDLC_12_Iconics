@@ -194,30 +194,23 @@ void test_KVL_3(){
 
 
 void test_unit_eightBitBinaryTo8BitGray(void) {
-  TEST_ASSERT_EQUAL(11011011, eightBitBinaryTo8BitGray(10010010));
-  TEST_ASSERT_EQUAL(10000000, eightBitBinaryTo8BitGray(11111111));
   TEST_ASSERT_EQUAL(11111111, eightBitBinaryTo8BitGray(10101010));
-  TEST_ASSERT_EQUAL(11010100, eightBitBinaryTo8BitGray(10011000));
+  TEST_ASSERT_EQUAL(11101011, eightBitBinaryTo8BitGray(10100010));
 }
 
 void test_unit_eightBitBinaryTo4BitGray(void) {
-  TEST_ASSERT_EQUAL(1101, eightBitBinaryTo4BitGray(10010010));
-  TEST_ASSERT_EQUAL(1000, eightBitBinaryTo4BitGray(11111111));
   TEST_ASSERT_EQUAL(1111, eightBitBinaryTo4BitGray(10101010));
+  TEST_ASSERT_EQUAL(1110, eightBitBinaryTo4BitGray(10100010));
 }
 
 void test_unit_eightBitGrayTo8BitBinary(void) {
-  TEST_ASSERT_EQUAL(10010101, eightBitGrayTo8BitBinary(11011111));
-  TEST_ASSERT_EQUAL(10101010, eightBitGrayTo8BitBinary(11111111));
-  TEST_ASSERT_EQUAL(11101000, eightBitGrayTo8BitBinary(10011100));
-  TEST_ASSERT_EQUAL(00000000, eightBitGrayTo8BitBinary(00000000));
+  TEST_ASSERT_EQUAL(11001100, eightBitGrayTo8BitBinary(10101010));
+  TEST_ASSERT_EQUAL(11011100, eightBitGrayTo8BitBinary(10110010));
 }
 
 void test_unit_eightBitGrayTo4BitBinary(void) {
-  TEST_ASSERT_EQUAL(1001, eightBitGrayTo4BitBinary(11011111));
-  TEST_ASSERT_EQUAL(1010, eightBitGrayTo4BitBinary(11111111));
-  TEST_ASSERT_EQUAL(1110, eightBitGrayTo4BitBinary(10011100));
-  TEST_ASSERT_EQUAL(0000, eightBitGrayTo4BitBinary(00000000));
+  TEST_ASSERT_EQUAL(1100, eightBitGrayTo4BitBinary(10101010));
+  TEST_ASSERT_EQUAL(1101, eightBitGrayTo4BitBinary(11111111));
   
 }
 
