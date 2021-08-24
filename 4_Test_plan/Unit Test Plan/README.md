@@ -31,8 +31,8 @@
 | L_16 | Finding the 8 bit Binary from 8 bit Gray code | 10101010 | 11001100 | 11001100 | Requirement based | Passed |
 | L_17 | Suppose we must require 8 bit Binary code for a project | 10110010 | 11011100 | 11011100 | Scenario based | Passed |
 | L_18 | Suppose someone enters a value larger than the permitted value | 100000000 | "**Please Enter a Valid 8 bit Binary Number**" |  "**Please Enter a Valid 8 bit Binary Number**" | Boundary based | Passed |
-| L_19 | Finding the 4 bit Binary from 8 bit Gray code | 10101010 | 11001100 | 11001100 | Requirement based | Passed |
-| L_20 | Suppose we must require 4 bit Binary code for a project | 10110010 | 11011100 | 11011100 | Scenario based | Passed |
+| L_19 | Finding the 4 bit Binary from 8 bit Gray code | 10101010 | 1100 | 1100 | Requirement based | Passed |
+| L_20 | Suppose we must require 4 bit Binary code for a project | 10110010 | 1101 | 1101 | Scenario based | Passed |
 | L_21 | Suppose someone enters a value larger than the permitted value | 100000000 | "**Please Enter a Valid 8 bit Binary Number**" |  "**Please Enter a Valid 8 bit Binary Number**" | Boundary based | Passed |
 |  L_22 | Finding the excess-3 code for given BCD code | 0001 | 0100| 0100               |Requirement Based|Passed|
 |  L_23 | Finding the BCD code from the given excess-3 code | 0111 | 0100|    0100            |Requirement Based|Passed|
