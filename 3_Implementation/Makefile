@@ -23,8 +23,7 @@ src/decimal_binary_conversion.c\
 src/EnergyandTimeconstant.c
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c\
+TEST_SRC =test/test.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
@@ -47,13 +46,13 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	gcc $(SRC) $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 
 
 #Coverage
 coverage:$(BUILD)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 
 clean:
