@@ -100,7 +100,7 @@ int main()
 	printf("\nThank you. Exiting the Application\n");
 	exit(0);
 
-	default:printf("INVALID CHOICE!!!!!!\nPlease renter your choice");
+	default:printf("INVALID CHOICE!!!!!!\n");
 	
 
     }
